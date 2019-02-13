@@ -32,8 +32,8 @@
 
 ### Préparation
 
-1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici](install-7zip/).
-1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](install-notepadpp/).
+1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
+1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-notepadpp/).
 
 
 ### Visualisation du génome avec *Bloc-notes*
@@ -88,7 +88,7 @@
 
 ### Préparation
 
-1. Installez le logiciel *Meld* sur votre machine. Vous trouverez une notice détaillée [ici](install-meld/).
+1. Installez le logiciel *Meld* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-meld/).
 
 ### Recherche des différences entre deux séquences de déhydrogénase
 
