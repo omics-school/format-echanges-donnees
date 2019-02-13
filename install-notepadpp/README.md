@@ -1,9 +1,3 @@
----
-title: Installation de Notepad++
-author: Pierre Poulain
-license: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
----
-
 # Installation de Notepad++
 
 [Notepad++](https://notepad-plus-plus.org/fr/) est un logiciel libre et gratuit. C'est un éditeur de texte très performant pour Windows.
