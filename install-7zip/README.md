@@ -1,9 +1,3 @@
----
-title: Installation de 7-zip
-author: Pierre Poulain
-license: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
----
-
 # Installation de 7-zip
 
 [7-Zip](https://www.7-zip.org/) est un logiciel libre et gratuit pour Windows. Il est capable manipuler la plupart des formats d'archives existants.
