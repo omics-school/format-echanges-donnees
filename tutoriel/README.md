@@ -9,16 +9,15 @@
     ![](img/tauri_V2.png)
     Attention de bien prendre la **V2** !
 1. Combien *O. tauri* possède de chromosomes ?
-<details><summary>CLICK ME</summary>
-<p>
-Il y a 20 chromosomes
+    <details><summary>CLICK ME</summary>
+    <p>
+    Il y a 20 chromosomes
 
-```python
-print("hello world!")
-```
-
-</p>
-</details>
+    ```python
+    print("hello world!")
+    ```
+    </p>
+    </details>
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 1. Repérez où ce fichier a été téléchargé sur votre ordinateur et déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
