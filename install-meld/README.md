@@ -1,9 +1,3 @@
----
-title: Installation de Meld
-author: Pierre Poulain
-license: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
----
-
 # Installation de Meld
 
 [Meld](http://meldmerge.org/) est un logiciel libre et gratuit. Il offre la possibilité de comparer deux (voire 3) fichiers texte côte-à-côte.
