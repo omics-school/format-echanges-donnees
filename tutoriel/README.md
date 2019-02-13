@@ -4,7 +4,7 @@
 
 ## Partie 1
 
-1. Allez sur le site <http://bioinformatics.psb.ugent.be/orcae/>
+1. Allez sur le site [Online Resource for Community Annotation of Eukaryotes (OrcAE)](http://bioinformatics.psb.ugent.be/orcae/)
 1. Puis sur **Ostreococcus tauri (V2)**
     ![](img/tauri_V2.png)
     Attention de bien prendre la **V2** !
