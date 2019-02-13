@@ -2,7 +2,7 @@
 
 [Diapo de la présentation](https://omics-school.github.io/formats-echanges-donnees/diapo/index.html)
 
-[Tutoriel](tutoriel/README.md)
+[Tutoriel](tutoriel/)
 
 
 ## Licence
