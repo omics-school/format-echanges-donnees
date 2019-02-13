@@ -19,7 +19,7 @@ Pierre Poulain / @pierrepo
 </div>
 
 .footer[
-Ce contenu est mis à disposition selon les termes de la licence Creative Commons Attribution 4.0 International (CC BY 4.0)
+Ce contenu est mis à disposition selon les termes de la licence Creative Commons BY-SA 4.0
 ]
 
 ---
@@ -166,11 +166,11 @@ template: contentleft
 
 --
 
-2. Mettez en communs avec votre voisin(e) et déterminez s'il s'agit de format binaire ou texte (3').
+2. Mettez en commun avec votre voisin(e) et déterminez s'il s'agit de format binaire ou texte (3').
 
 --
 
-3. Mise en commun
+3. Mise en commun générale.
 
 ---
 
@@ -262,7 +262,9 @@ template: contentleft
 ## Éditeurs de texte
 
 - Windows : [Notepad++](https://notepad-plus-plus.org/fr/) (pas *Bloc-notes*)
+
 - Mac OS X : [BBEdit](https://www.barebones.com/products/bbedit/) $, [CotEditor](https://coteditor.com/)
+
 - Linux : vim, emacs, gedit, Atom...
 
 ---
