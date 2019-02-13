@@ -32,13 +32,13 @@
 
 ### Préparation
 
-1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici].
+1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici](https://github.com/omics-school/install-7zip).
 1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici].
 
 
 ### Visualisation du génome avec le *Bloc-notes*
 
-1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*. Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire ici*
+1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*. Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
 1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes*
     Remarque : lancez d'abord le *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/recherche_bloc-notes.png)).
