@@ -41,7 +41,7 @@
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*. Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
 1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes*
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
-1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/recherche_bloc-notes.png)).
+1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).
     Retrouvez-vous le bon nombre de chromosomes ?
 1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?
 1. Fermez le *Bloc-notes*.
@@ -107,5 +107,5 @@
 > > | 147      | Ile   | Val    |
 > > | 329      | Ala   | Ser    |
 > >
-> > Le calcul de la position se fait en repérant le numéro du caractère correspondant à la mutation puis en ajoutant les caractères des lignes d'avant (60 caractères par ligne).
+> > Le calcul de la position se fait en repérant le numéro du caractère correspondant à la mutation puis en ajoutant le nombre de caractères des lignes d'avant (60 caractères par ligne).
 {:.answer}
