@@ -88,14 +88,14 @@
 
 ### Préparation
 
-1. Installez le logiciel *Meld* sur votre machine. Vous trouverez une notice détaillée [ici].
+1. Installez le logiciel *Meld* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/install-meld).
 
 ### Recherche des différences entre deux séquences de déhydrogénase
 
 1. Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
     - de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
     - du gibbon à favoris blancs du Nord (G1QVR0) -  [UniProt](https://www.uniprot.org/uniprot/G1QVR0) - [local](files/G1QVR0.fasta)
-1. Lancez *Meld*, cliquez sur *File comparison*, indiquez le chemin des deux fichiers FASTA puis cliquez sur *Compare*.
+1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre. Enfin, cliquez sur *Compare*.
 1. Identifiez la position et le type des acides aminés qui diffèrent entre les 2 séquences.
 
 > **Réponses :**
