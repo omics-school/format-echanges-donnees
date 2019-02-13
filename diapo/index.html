@@ -18,13 +18,20 @@
 
     <script src="js/remark-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
-    </script>
     <script>
     var slideshow = remark.create({
+      slideNumberFormat: '%current%',
       ratio: '16:9',
       countIncrementalSlides: false,
       sourceUrl: 'slides.md'
     });
+    // Setup MathJax
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    });
+    MathJax.Hub.Configured();
     </script>
   </body>
 </html>

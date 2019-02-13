@@ -32,6 +32,21 @@ references
 }
 
 /*
+green text
+ */
+.green {
+    font-weight: bold;
+    color: green;
+}
+
+/*
+bigger text
+ */
+.bigger {
+    font-size: 130%;
+}
+
+/*
 footer
  */
 .footer {
