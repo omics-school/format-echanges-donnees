@@ -33,7 +33,7 @@
 ### Préparation
 
 1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/install-7zip).
-1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici].
+1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/install-notepadpp).
 
 
 ### Visualisation du génome avec le *Bloc-notes*
