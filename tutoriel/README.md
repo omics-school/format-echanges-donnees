@@ -10,20 +10,21 @@
     Attention de bien prendre la **V2** !
 1. Combien *O. tauri* possède de chromosomes ?
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
-1. Repérez où ce fichier a été téléchargé sur votre ordinateur et déterminez sa taille.
+1. Trouvez où ce fichier a été téléchargé sur votre ordinateur puis déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord le *Bloc-notes* ([aide](img/bloc-notes.png))
+    - Lancez d'abord le *Bloc-notes* ([aide](img/bloc-notes_cortana.png))
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
 > **Réponses :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
-> > Le fichier téléchargé a une taille d'approximativement 3,8 Mo.
+> > Le fichier se trouve peut-être dans le répertoire *Téléchargements*. Le fichier a une taille d'approximativement 3,8 Mo.
 > >
 > > Quand on ouvre le fichier O.tauri_genome_V2.1.tfa.gz avec l'application *Bloc-notes*, on obtient :
 > > ![](img/bloc-notes_O_tauri_gz.png)
-> > C'est normal car O.tauri_genome_V2.1.tfa.gz car n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+> > Le fichier n'est pas très lisible. C'est normal car O.tauri_genome_V2.1.tfa.gz car n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+> > On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
 {:.answer}
 
 
@@ -44,6 +45,18 @@
     Retrouvez-vous le bon nombre de chromosomes ?
 1. Observez-vous un truc *curieux* par rapport à vos connaissances du format FASTA ?
 1. Fermez le *Bloc-notes*.
+
+> **Réponses :**
+> > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes* on obtient :
+> > ![](img/bloc-notes.png)
+> > Difficile de voir où sont les différents chromosomes !
+
+> > La fonction *Rechercher* permet de les retrouver un par un
+> > ![](img/bloc-notes_recherche.png)
+> > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
+> >
+> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas le cas ici.
+{:.answer}
 
 
 ### Visualisation du génome avec le *Notepad++*
@@ -73,6 +86,8 @@
 > **Réponses :**
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
+> >
 > > Ile (homme) | Valine (gibbon)
+> >
 > > Ala (homme) | Ser (gibbon)
 {:.answer}
