@@ -20,7 +20,7 @@
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
 > > Le fichier téléchargé a une taille d'approximativement 3,8 Mo.
-
+> >
 > > Quand on ouvre le fichier O.tauri_genome_V2.1.tfa.gz avec l'application *Bloc-notes*, on obtient :
 > > ![](img/bloc-notes_O_tauri_gz.png)
 > > C'est normal car O.tauri_genome_V2.1.tfa.gz car n'est pas un fichier texte. C'est un fichier compressé donc binaire.
