@@ -12,7 +12,7 @@
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 1. Trouvez où ce fichier a été téléchargé sur votre ordinateur puis déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord le *Bloc-notes* avec Cortana ([aide](img/bloc-notes_cortana.png))
+    - Lancez d'abord *Bloc-notes* avec Cortana ([aide](img/bloc-notes_cortana.png))
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
@@ -36,11 +36,11 @@
 1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/install-notepadpp).
 
 
-### Visualisation du génome avec le *Bloc-notes*
+### Visualisation du génome avec *Bloc-notes*
 
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*. Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
 1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes*
-    Remarque : lancez d'abord le *Bloc-notes* puis glisser-déposez le fichier sur l'application.
+    Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/recherche_bloc-notes.png)).
     Retrouvez-vous le bon nombre de chromosomes ?
 1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?
@@ -58,12 +58,12 @@
 {:.answer}
 
 
-### Visualisation du génome avec le *Notepad++*
+### Visualisation du génome avec *Notepad++*
 
 1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
 1. La lisibilité du fichier est-elle améliorée ?
     Que signifie `LF` dans la barre en bas de la fenêtre ?
-1. Comment expliquez-vous cette différence de comportement entre le *Bloc-notes* et *Notepad++* ?
+1. Comment expliquez-vous cette différence de comportement entre *Bloc-notes* et *Notepad++* ?
 1. Avec votre souris, sélectionnez une ligne entière contenant un morceau de séquence puis regardez la barre en bas de la fenêtre.
     Sur combien de caractères par ligne sont réparties les séquences des chromosomes de *O. tauri* ?
 1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*
@@ -73,7 +73,7 @@
 > > ![](img/notepad++_ouverture.png)
 > > Le fichier est beaucoup plus lisible. La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
 > >
-> > Le *Bloc-notes* n'est capable de lire que des fichiers texte venant de Windows, c'est-à-dire avec des `CR+LF` comme caractères de fin de ligne. *Notepad++* est beaucoup plus polyvalent. C'est un vrai éditeur de texte !
+> > *Bloc-notes* n'est capable de lire que des fichiers texte venant de Windows, c'est-à-dire avec des `CR+LF` comme caractères de fin de ligne. *Notepad++* est beaucoup plus polyvalent. C'est un vrai éditeur de texte !
 > >
 > > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 50.
 > > ![](img/notepad++_taille_ligne.png)
@@ -96,14 +96,16 @@
     - de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
     - du gibbon à favoris blancs du Nord (G1QVR0) -  [UniProt](https://www.uniprot.org/uniprot/G1QVR0) - [local](files/G1QVR0.fasta)
 1. Lancez *Meld*, cliquez sur *File comparison*, indiquez le chemin des deux fichiers FASTA puis cliquez sur *Compare*.
-1. Identifiez quels acides aminés diffèrent entre les 2 séquences
+1. Identifiez la position et le type des acides aminés qui diffèrent entre les 2 séquences.
 
 > **Réponses :**
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
 > >
-> > | Homme | Gibbon |
-> > |-------|--------|
-> > | Ile (homme) | Valine (gibbon) |
-> > | Ala (homme) | Ser (gibbon) |
+> > | Position | Homme | Gibbon |
+> > |----------|-------|--------|
+> > | 147      | Ile   | Val    |
+> > | 329      | Ala   | Ser    |
+> >
+> > Le calcul de la position se fait en repérant le numéro du caractère correspondant à la mutation puis en ajoutant les caractères des lignes d'avant (60 caractères par ligne).
 {:.answer}
