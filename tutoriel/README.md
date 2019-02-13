@@ -50,7 +50,6 @@
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > > Difficile de voir où sont les différents chromosomes !
-
 > > La fonction *Rechercher* permet de les retrouver un par un
 > > ![](img/bloc-notes_recherche.png)
 > > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
@@ -74,12 +73,12 @@
 > > ![](img/notepad++_ouverture.png)
 > > Le fichier est beaucoup plus lisible. La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
 > >
-> > Le *Bloc-notes* n'est capable que de lire des fichiers texte venant de Windows, c'est-à-dire avec des `CR+LF` comme caractères de fin de ligne. *Notepad++* est beaucoup plus polyvalent. C'est un vrai éditeur de texte !
+> > Le *Bloc-notes* n'est capable de lire que des fichiers texte venant de Windows, c'est-à-dire avec des `CR+LF` comme caractères de fin de ligne. *Notepad++* est beaucoup plus polyvalent. C'est un vrai éditeur de texte !
 > >
-> > En sélectionnant une lignec complète, la barre en bas indique le nombre de caractères. Ici 50.
+> > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 50.
 > > ![](img/notepad++_taille_ligne.png)
 > >
-> > En utilisant la fonction *Rechercher* de *Notepad++**, on retrouve les 20 chromosomes. On peut même les compter très rapidement.
+> > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 20 chromosomes. On peut même les compter très rapidement.
 > > ![](img/notepad++_rechercher.png)
 > > ![](img/notepad++_compter.png)
 {:.answer}
@@ -103,7 +102,8 @@
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
 > >
-> > Ile (homme) | Valine (gibbon)
-> >
-> > Ala (homme) | Ser (gibbon)
+> > | Homme | Gibbon |
+> > |-------|--------|
+> > | Ile (homme) | Valine (gibbon) |
+> > | Ala (homme) | Ser (gibbon) |
 {:.answer}
