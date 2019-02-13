@@ -162,7 +162,7 @@ template: contentleft
 
 # Formats de fichiers
 
-1. Notez les formats de fichiers (extension / nom) que vous connaissez (1')
+1. Dressez la liste des formats de fichiers (extension / nom) que vous connaissez (1').
 
 --
 
@@ -170,7 +170,7 @@ template: contentleft
 
 --
 
-3. Mise en commun générale.
+3. Mettez en commun avec le groupe.
 
 ---
 
@@ -263,7 +263,7 @@ template: contentleft
 
 - Windows : [Notepad++](https://notepad-plus-plus.org/fr/) (pas *Bloc-notes*)
 
-- Mac OS X : [BBEdit](https://www.barebones.com/products/bbedit/) $, [CotEditor](https://coteditor.com/)
+- Mac OS X : [BBEdit](https://www.barebones.com/products/bbedit/) ($$), [CotEditor](https://coteditor.com/)
 
 - Linux : vim, emacs, gedit, Atom...
 
