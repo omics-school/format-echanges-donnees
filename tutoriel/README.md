@@ -1,29 +1,29 @@
 # Tutoriel
 
-# Exploration du génome d'Ostreococcus tauri
+# Exploration du génome d'*Ostreococcus tauri*
 
 ## Partie 1
 
 1. Allez sur le site [Online Resource for Community Annotation of Eukaryotes (OrcAE)](http://bioinformatics.psb.ugent.be/orcae/)
-1. Puis sur **Ostreococcus tauri (V2)**
+1. Cliquez sur **Ostreococcus tauri (V2)**
     ![](img/tauri_V2.png)
     Attention de bien prendre la **V2** !
 1. Combien *O. tauri* possède de chromosomes ?
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 1. Trouvez où ce fichier a été téléchargé sur votre ordinateur puis déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord le *Bloc-notes* ([aide](img/bloc-notes_cortana.png))
+    - Lancez d'abord le *Bloc-notes* avec Cortana ([aide](img/bloc-notes_cortana.png))
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
 > **Réponses :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
-> > Le fichier se trouve peut-être dans le répertoire *Téléchargements*. Le fichier a une taille d'approximativement 3,8 Mo.
+> > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,8 Mo.
 > >
 > > Quand on ouvre le fichier O.tauri_genome_V2.1.tfa.gz avec l'application *Bloc-notes*, on obtient :
 > > ![](img/bloc-notes_O_tauri_gz.png)
-> > Le fichier n'est pas très lisible. C'est normal car O.tauri_genome_V2.1.tfa.gz car n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+> > Le fichier n'est pas très lisible. C'est normal car O.tauri_genome_V2.1.tfa.gz n'est pas un fichier texte. C'est un fichier compressé donc binaire.
 > > On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
 {:.answer}
 
@@ -43,7 +43,7 @@
     Remarque : lancez d'abord le *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/recherche_bloc-notes.png)).
     Retrouvez-vous le bon nombre de chromosomes ?
-1. Observez-vous un truc *curieux* par rapport à vos connaissances du format FASTA ?
+1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?
 1. Fermez le *Bloc-notes*.
 
 > **Réponses :**
@@ -54,7 +54,7 @@
 > > ![](img/bloc-notes_recherche.png)
 > > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
 > >
-> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas le cas ici.
+> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas être le cas ici.
 {:.answer}
 
 
