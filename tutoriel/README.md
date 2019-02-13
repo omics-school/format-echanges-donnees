@@ -12,11 +12,13 @@
     > **Réponse :**
     > > Il y a 20 chromosomes
     {:.answer}
-
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 1. Repérez où ce fichier a été téléchargé sur votre ordinateur et déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord le *Bloc-notes* ([aide](img/bloc-notes.png))
+    - Lancez d'abord le *Bloc-notes*
+    > **Aide :**
+    > > (![](img/bloc-notes.png))
+    {:.answer}
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
