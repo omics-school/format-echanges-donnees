@@ -107,5 +107,5 @@
 > > | 147      | Ile   | Val    |
 > > | 329      | Ala   | Ser    |
 > >
-> > Le calcul de la position se fait en repérant le numéro du caractère correspondant à la mutation puis en ajoutant le nombre de caractères des lignes d'avant (60 caractères par ligne).
+> > Le calcul de la position se fait en repérant le numéro (dans la barre en bas de la fenêtre) du caractère correspondant à la mutation puis en ajoutant le nombre de caractères des lignes d'avant (60 caractères par ligne).
 {:.answer}
