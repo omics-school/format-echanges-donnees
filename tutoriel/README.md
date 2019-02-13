@@ -9,18 +9,22 @@
     ![](img/tauri_V2.png)
     Attention de bien prendre la **V2** !
 1. Combien *O. tauri* possède de chromosomes ?
-    > **Réponse :**
-    > > Il y a 20 chromosomes
-    {:.answer}
 1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 1. Repérez où ce fichier a été téléchargé sur votre ordinateur et déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord le *Bloc-notes*
-        > **Aide :**
-        > > (![](img/bloc-notes.png))
-        {:.answer}
+    - Lancez d'abord le *Bloc-notes* ([aide](img/bloc-notes.png))
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
+
+> **Réponses :**
+> > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
+> >
+> > Le fichier téléchargé a une taille d'approximativement 3,8 Mo.
+
+> > Quand on ouvre le fichier O.tauri_genome_V2.1.tfa.gz avec l'application *Bloc-notes*, on obtient :
+> > ![](img/bloc-notes_O_tauri_gz.png)
+> > C'est normal car O.tauri_genome_V2.1.tfa.gz car n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+{:.answer}
 
 
 ## Partie 2
@@ -66,7 +70,9 @@
 1. Lancez *Meld*, cliquez sur *File comparison*, indiquez le chemin des deux fichiers FASTA puis cliquez sur *Compare*.
 1. Identifiez quels acides aminés diffèrent entre les 2 séquences
 
-Réponse :
-![](img/meld_dehydrogenase.png)
-Ile (homme) | Valine (gibbon)
-Ala (homme) | Ser (gibbon)
+> **Réponses :**
+> > ![](img/meld_dehydrogenase.png)
+> > Les acides aminés différents entre l'homme et le gibbon sont :
+> > Ile (homme) | Valine (gibbon)
+> > Ala (homme) | Ser (gibbon)
+{:.answer}
