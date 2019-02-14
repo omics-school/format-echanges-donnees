@@ -27,21 +27,27 @@ Ce contenu est mis à disposition selon les termes de la licence Creative Common
 layout: true
 name: title
 class: center, middle
-.footer[DU Omiques 2019]
+.footer[
+DU Omiques 2019
+]
 
 ---
 
 layout: true
 name: contentleft
 class: top, left
-.footer[DU Omiques 2019]
+.footer[
+DU Omiques 2019
+]
 
 ---
 
 layout: true
 name: contentcenter
 class: top, center
-.footer[DU Omiques 2019]
+.footer[
+DU Omiques 2019
+]
 
 ---
 
@@ -350,5 +356,5 @@ background-color: #cccccc
 ![](img/giphy-computer.gif)
 
 .left[
-Le mois prochain : Unix (**deux activités préparatoires**)
+Le mois prochain : le *shell* Linux (**deux activités préparatoires**)
 ]
