@@ -200,11 +200,11 @@ template: contentleft
 
 [Fichier de données brutes de spectrométrie de masse](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format) (.raw) : binaire
 
-[Fichier d'échange de données en spectrométrie de masse](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzML) (.mxML) : .green[texte] (mais avec un peu de binaire dedans)
+[Fichier d'échange de données en spectrométrie de masse](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzML) (.mzML) : .green[texte] (mais avec un peu de binaire dedans)
 
 [Document web](https://en.wikipedia.org/wiki/HTML) (.htm / .html) : .green[texte]
 
-[Script R](https://www.r-project.org/) (.R), [Python](https://www.python.org/) (.py) : .green[texte]
+[Script R](https://www.r-project.org/) (.R), [Python](https://www.python.org/) (.py), [Bash](https://fr.wikibooks.org/wiki/Programmation_Bash/Scripts) (.sh) : .green[texte]
 
 ---
 template: contentleft
@@ -232,8 +232,6 @@ IENY
 
 ---
 template: contentleft
-
-<br />
 
 # Quelques particularités du format texte
 
