@@ -345,4 +345,10 @@ background-color: #cccccc
 ## 💻 [Tutoriel](https://omics-school.github.io/formats-echanges-donnees/tutoriel/)
 ]
 
+--
+
 ![](img/giphy-computer.gif)
+
+.left[
+Le mois prochain : Unix (**deux activités préparatoires**)
+]
