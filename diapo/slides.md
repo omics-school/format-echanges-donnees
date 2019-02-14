@@ -337,7 +337,6 @@ Crédit : Hervé Moreau, Laboratoire Arago. [Image](https://genome.jgi.doe.gov/O
 ]
 
 ---
-
 background-color: #cccccc
 
 # À vous ! 🚀
@@ -356,5 +355,18 @@ background-color: #cccccc
 ![](img/giphy-computer.gif)
 
 .left[
-Le mois prochain : le *shell* Linux (**deux activités préparatoires**)
+Le mois prochain : le *shell* Unix (**deux activités préparatoires**)
+]
+
+---
+template: contentleft
+
+background-color: #cccccc
+
+# Teasing : le *shell* Unix
+
+.center[
+<img src="img/terminal.png"
+     height="500px">
+</img>
 ]
