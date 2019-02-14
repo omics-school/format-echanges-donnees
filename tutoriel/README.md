@@ -39,7 +39,7 @@
 ### Visualisation du génome avec *Bloc-notes*
 
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*. Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
-1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes*
+1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes*.
 
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 
@@ -51,7 +51,7 @@
 1. Fermez le *Bloc-notes*.
 
 > **Réponses :**
-> > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Bloc-notes* on obtient :
+> > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > > Difficile de voir où sont les différents chromosomes !
 > > La fonction *Rechercher* permet de les retrouver un par un
