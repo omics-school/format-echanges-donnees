@@ -125,24 +125,28 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 ## 4.1 Préparation
 
 Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur la malaria ayant pour titre
-*Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies*.
+« *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies* ».
 
 En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
 
 - `mng2015_children_malaria_codebook.txt`
 - `mng2015_children_malaria_data.csv`
 
+Si lors du téléchargement, Firefox vous demande quoi faire avec ces fichiers, choisissez *Enregistrer le fichier*.
+
 Notez les empreintes MD5 fournies sous chaque fichiers :
 
 ![](img/malaria_md5.png)
 
-Repérez où ont été téléchargés les fichiers (a priori dans le répertoire *Téléchargement*).
+Repérez où ont été téléchargés les fichiers (a priori dans le répertoire *Téléchargements*).
 
 ## 4.2 Calcul des empreintes
 
 Depuis votre machine, lancez le logiciel *WinMD5* ([aide](img/winmd5_aide.png)).
 
 En cliquant sur le bouton *Browse*, ouvrez le fichier `mng2015_children_malaria_codebook.txt`. 
+
+![](img/winmd5_browse.png)
 
 Comparez l'empreinte MD5 calculée (dans le champ texte *Current file MD5 checksum value*) avec l'empreinte fournie sur le site Zenodo où vous avez téléchargé les données.
 
