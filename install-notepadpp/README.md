@@ -1,16 +1,20 @@
 # Installation de Notepad++
 
-[Notepad++](https://notepad-plus-plus.org/fr/) est un logiciel libre et gratuit. C'est un éditeur de texte très performant pour Windows.
+[Notepad++](https://notepad-plus-plus.org/) est un logiciel libre et gratuit. C'est un éditeur de texte très performant pour Windows.
 
-Dans un navigateur internet, ouvrez le site de [Notepad++](https://notepad-plus-plus.org/fr/).
+Dans un navigateur internet, ouvrez le site de [Notepad++](https://notepad-plus-plus.org/).
 
-Cliquez sur *download* dans le menu à gauche.
+Cliquez sur *Download* dans le menu à gauche.
 
-Déplacez-vous à la rubrique *Download 64-bit x64* puis cliquez sur **Notepad++ Installer 64-bit x64** :
+Cliquez ensuite sur la dernière version du logiciel :
 
 ![](img/npp_00.png)
 
-Enregistrez le ficher proposé au téléchargement. Ici *npp.7.6.3.Installer.x64.exe*, mais le nom peut être légèrement différent si une nouvelle version est disponible.
+Descendez ensuite dans la page jusqu'à la rubrique *Donwload 64-bit x64* et cliquez sur *Installer*.
+
+![](img/npp_000.png)
+
+Enregistrez le ficher proposé au téléchargement. Ici *npp.7.9.1.Installer.x64.exe*, mais le nom peut être légèrement différent si une nouvelle version est disponible.
 
 Une fois téléchargé, retrouvez où le fichier a été enregistré (a priori dans le répertoire *Téléchargements*).
 
