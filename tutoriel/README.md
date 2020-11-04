@@ -157,7 +157,7 @@ Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
 **Attention, cette cascade n'a pas été réalisée par un professionnel, essayez surtout de la reproduire chez vous.**
 
-Téléchargez les deux images ci-dessous :
+Téléchargez les deux images ci-dessous en cliquant droit sur chaque image puis en choisissant *Enregistrer l'image sous...*.
 
 ![](img/souvlaki_coll.jpg)
 
