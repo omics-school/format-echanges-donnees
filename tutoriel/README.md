@@ -10,7 +10,7 @@
     Attention de bien prendre la **V2**, c'est important !  
     Le serveur peut mettre du temps à répondre. Patientez quelques instants.
 3. Combien *O. tauri* possède de chromosomes ?
-4. Cliquez ensuite sur **Download** 
+4. Cliquez ensuite sur **Download**  
     ![](img/tauri_V2_download.png)
     puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 5. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
