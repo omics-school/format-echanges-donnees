@@ -37,12 +37,12 @@
 ### Préparation
 
 1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-notepadpp/).
-1. Vérifiez que le logiciel *7-zip* est bien installé). Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
+1. Vérifiez que le logiciel *7-zip* est bien installé. Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
 
 ### Visualisation du génome avec *Bloc-notes*
 
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*.  
-    Pour cela cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
+    Pour cela, cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
 1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes*.  
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
@@ -54,6 +54,7 @@
 > **Réponses :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
+> >
 > > La fonction *Rechercher* (obtenue en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>) permet de les retrouver un par un
 > > ![](img/bloc-notes_recherche.png)
 > > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
