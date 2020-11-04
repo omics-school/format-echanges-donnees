@@ -11,7 +11,7 @@
     Le serveur peut mettre du temps à répondre. Patientez quelques instants.
 3. Combien *O. tauri* possède de chromosomes ?
 4. Cliquez ensuite sur **Download**  
-    ![](img/tauri_V2_download.png)
+    ![](img/tauri_V2_download.png)  
     puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
 5. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
 6. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
@@ -22,6 +22,7 @@
 <details>
 <summary>**Aide**</summary>
 
+
 **aide** le voilà
 
 ![](img/tauri_V2.png)
@@ -30,6 +31,7 @@
 commande 1
 commande 2
 ```
+
 
 </details>
 
