@@ -20,7 +20,7 @@
     - Que lisez-vous ?
 
 
-> **Réponses : **
+> **Réponses :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,8 Mo.
@@ -34,12 +34,12 @@
 
 ## Partie 2 : éditeurs de texte
 
-### Préparation
+### 2.1 Préparation
 
 1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-notepadpp/).
 1. Vérifiez que le logiciel *7-zip* est bien installé. Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
 
-### Visualisation du génome avec *Bloc-notes*
+### 2.2 Visualisation du génome avec *Bloc-notes*
 
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*.  
     Pour cela, cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
@@ -51,7 +51,7 @@
     Allez jeter un oeil vers la ligne 193044.
 1. Fermez le *Bloc-notes*.
 
-> **Réponses : **
+> **Réponses :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > >
@@ -64,7 +64,7 @@
 {:.answer}
 
 
-### Visualisation du génome avec *Notepad++*
+### 2.3 Visualisation du génome avec *Notepad++*
 
 1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
 1. Que signifie `LF` dans la barre en bas de la fenêtre ?
@@ -73,7 +73,9 @@
 1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*.
 1. Voyez-vous un moyen de compter très rapidement le nombres de chromosomes ?
 
-> **Réponses : **
+Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fortement son utilisation 
+
+> **Réponses :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
 > > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
@@ -89,13 +91,13 @@
 {:.answer}
 
 
-# Le jeu des différences
+# Partie 3 : le jeu des différences
 
-### Préparation
+### 3.1 Préparation
 
-1. Installez le logiciel *Meld* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-meld/).
+Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-meld/).
 
-### Recherche des différences entre deux séquences de déhydrogénase
+### 3.2 Recherche des différences entre deux séquences de déhydrogénase
 
 1. Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
     - de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
