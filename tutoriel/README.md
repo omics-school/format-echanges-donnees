@@ -20,7 +20,7 @@
     - Que lisez-vous ?
 
 
-> **Éléments de réponses :**
+> **Éléments de réponse :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,8 Mo.
@@ -51,7 +51,7 @@
     Allez jeter un oeil vers la ligne 193044.
 1. Fermez le *Bloc-notes*.
 
-> **Réponses :**
+> **Éléments de réponse :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > >
@@ -73,9 +73,9 @@
 1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*.
 1. Voyez-vous un moyen de compter très rapidement le nombres de chromosomes ?
 
-Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fortement son utilisation 
+Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fortement son utilisation !
 
-> **Réponses :**
+> **Éléments de réponse :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
 > > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
@@ -97,15 +97,16 @@ Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fort
 
 Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-meld/).
 
+Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
+- de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
+- du gibbon à favoris blancs du Nord (G1QVR0) -  [UniProt](https://www.uniprot.org/uniprot/G1QVR0) - [local](files/G1QVR0.fasta)
+
 ### 3.2 Recherche des différences entre deux séquences de déhydrogénase
 
-1. Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
-    - de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
-    - du gibbon à favoris blancs du Nord (G1QVR0) -  [UniProt](https://www.uniprot.org/uniprot/G1QVR0) - [local](files/G1QVR0.fasta)
 1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre ([aide](img/meld_file_comp.png)). Enfin, cliquez sur *Compare*.
 1. Identifiez la position et le type des acides aminés qui diffèrent entre les 2 séquences.
 
-> **Réponses :**
+> **Éléments de réponse :**
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
 > >
@@ -115,5 +116,38 @@ Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, ins
 > > | 329      | Ala   | Ser    |
 > >
 > > Le calcul de la position se fait en repérant le numéro (dans la barre en bas de la fenêtre) du caractère correspondant à la mutation puis en ajoutant le nombre de caractères des lignes d'avant (60 caractères par ligne).
-> > Cette méthode est bien sur "artisanale". Pour des séquences plus grandes ou plus nombreuses, il faudrait automatiser cette comparaison avec un programme écrit en Python ou en R.
+> > Cette méthode est bien sur "artisanale". Pour des séquences plus grandes ou plus nombreuses, il faudrait automatiser cette comparaison avec un programme écrit en Python ou en R 😇.
 {:.answer}
+
+
+# Partie 4 : contrôle d'intégrité
+
+## 4.1 Préparation
+
+Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur la malaria ayant pour titre
+*Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies*.
+
+En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
+
+- `mng2015_children_malaria_codebook.txt`
+- `mng2015_children_malaria_data.csv`
+
+Notez les empreintes MD5 fournies sous chaque fichiers :
+
+![](img/malaria_md5.png)
+
+Repérez où ont été téléchargés les fichiers (a priori dans le répertoire *Téléchargement*).
+
+## 4.2 Calcul des empreintes
+
+Depuis votre machine, lancez le logiciel *WinMD5* ([aide](img/winmd5_aide.png)).
+
+En cliquant sur le bouton *Browse*, ouvrez le fichier `mng2015_children_malaria_codebook.txt`. 
+
+Comparez l'empreinte MD5 calculée (dans le champ texte *Current file MD5 checksum value*) avec l'empreinte fournie sur le site Zenodo où vous avez téléchargé les données.
+
+Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
+
+
+
+
