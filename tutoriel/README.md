@@ -47,7 +47,8 @@
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
     Retrouvez-vous le bon nombre de chromosomes ?
-1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?
+1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?   
+    Allez jeter un oeil vers la ligne 193044.
 1. Fermez le *Bloc-notes*.
 
 > **Réponses :**
