@@ -19,6 +19,22 @@
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
+<details>
+<summary>**Aide**</summary>
+
+**aide** le voilà
+
+![](img/tauri_V2.png)
+
+```
+commande 1
+commande 2
+```
+
+</details>
+
+
+
 > **Réponses :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
