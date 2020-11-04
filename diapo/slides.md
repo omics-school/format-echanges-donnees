@@ -1,8 +1,8 @@
 class: center, middle
 
-# Formats & échanges de données
+# Formats & échanges de données en biologie
 
-## DU Omiques 2019
+## DU Omiques 2020-2021
 
 Pierre Poulain / @pierrepo
 
@@ -12,9 +12,9 @@ Pierre Poulain / @pierrepo
 <img src="img/logo_DUO.png"
 	 height="100px" style="vertical-align:midle;">
  </img>
-<div style="display: inline-block; width:100px;"></div>
-<img src="img/logo_UPD_USPC.png"
- 	 height="120px" style="vertical-align:midle;">
+<div style="display: inline-block; width:250px;"></div>
+<img src="img/Universite_Paris_logo_horizontal_2000px.png"
+ 	 height="95px" style="vertical-align:midle;">
  </img>
 </div>
 
@@ -28,7 +28,7 @@ layout: true
 name: title
 class: center, middle
 .footer[
-DU Omiques 2019
+Pierre P. ~ CC BY-SA
 ]
 
 ---
@@ -37,7 +37,7 @@ layout: true
 name: contentleft
 class: top, left
 .footer[
-DU Omiques 2019
+Pierre P. ~ CC BY-SA
 ]
 
 ---
@@ -46,7 +46,7 @@ layout: true
 name: contentcenter
 class: top, center
 .footer[
-DU Omiques 2019
+Pierre P. ~ CC BY-SA
 ]
 
 ---

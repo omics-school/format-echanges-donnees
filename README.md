@@ -1,4 +1,4 @@
-# Formats et échanges de données
+# Formats et échanges de données en biologie
 
 [Présentation](https://omics-school.github.io/formats-echanges-donnees/diapo/index.html)
 
