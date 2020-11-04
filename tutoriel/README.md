@@ -5,14 +5,17 @@
 ## Partie 1
 
 1. Allez sur le site [Online Resource for Community Annotation of Eukaryotes (OrcAE)](http://bioinformatics.psb.ugent.be/orcae/)
-1. Cliquez sur **Ostreococcus tauri (V2)**
+2. Cliquez sur **Ostreococcus tauri (V2)**.
     ![](img/tauri_V2.png)
-    Attention de bien prendre la **V2** !
-1. Combien *O. tauri* possède de chromosomes ?
-1. Cliquez ensuite sur **Download** puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
-1. Trouvez où ce fichier a été téléchargé sur votre ordinateur puis déterminez sa taille.
-1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord *Bloc-notes* avec Cortana ([aide](img/bloc-notes_cortana.png))
+    Attention de bien prendre la **V2**, c'est important !  
+    Le serveur peut mettre du temps à répondre. Patientez quelques instants.
+3. Combien *O. tauri* possède de chromosomes ?
+4. Cliquez ensuite sur **Download** 
+    ![](img/tauri_V2_download.png)
+    puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
+5. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
+6. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
+    - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas ([aide](img/bloc-notes_aide.png)).
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
