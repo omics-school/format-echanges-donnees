@@ -153,5 +153,22 @@ Comparez l'empreinte MD5 calculée (dans le champ texte *Current file MD5 checks
 Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
 
+## 4.3 Collision 😱
 
+**Attention, cette cascade a été réalisée par un professionnel, essayez de la reproduire chez vous.**
 
+Téléchargez les deux images ci-dessous :
+
+![](img/souvlaki_coll.jpg)
+
+![](img/gyra_coll.jpg)
+
+Toujours avec le logiciel WinMD5, calculez l'empreinte MD5 de ces deux photos. Notez l'empreinte à chaque fois. 
+
+Comparez ensuite les deux empreintes. Si elles sont identiques, vous venez d'assister à une collision de l'algorithme MD5. 
+
+Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
+
+> **Éléments de réponse :**
+> > Pour les deux images, l'empreinte MD5 est `59bbfd270bdf5817c5d77e739839a02a`.
+{:.answer}
