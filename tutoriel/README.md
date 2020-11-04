@@ -19,23 +19,6 @@
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 
-<details>
-<summary>**Aide**</summary>
-
-
-**aide** le voilà
-
-![](img/tauri_V2.png)
-
-```
-commande 1
-commande 2
-```
-
-
-</details>
-
-
 
 > **Réponses :**
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
@@ -53,14 +36,13 @@ commande 2
 
 ### Préparation
 
-1. Installez le logiciel *7-zip* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
 1. Installez le logiciel *Notepad++* sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-notepadpp/).
-
+1. Vérifiez que le logiciel *7-zip* est bien installé). Si ce n'est pas le cas, installez-le sur votre machine. Vous trouverez une notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees/install-7zip/).
 
 ### Visualisation du génome avec *Bloc-notes*
 
 1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*.  
-    Cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
+    Pour cela cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
 1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes*.  
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
@@ -71,12 +53,12 @@ commande 2
 > **Réponses :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
-> > Difficile de voir où sont les différents chromosomes !
-> > La fonction *Rechercher* permet de les retrouver un par un
+> > La fonction *Rechercher* (obtenue en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>) permet de les retrouver un par un
 > > ![](img/bloc-notes_recherche.png)
 > > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
 > >
-> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas être le cas ici.
+> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas être toujours le cas ici, par exemple à partir de la ligne 193044 !
+> > ![](img/bloc-notes_fasta_bug.png)
 {:.answer}
 
 
