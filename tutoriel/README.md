@@ -155,7 +155,7 @@ Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
 ## 4.3 Collision 😱
 
-**Attention, cette cascade a été réalisée par un professionnel, essayez de la reproduire chez vous.**
+**Attention, cette cascade n'a pas été réalisée par un professionnel, essayez surtout de la reproduire chez vous.**
 
 Téléchargez les deux images ci-dessous :
 
@@ -163,9 +163,9 @@ Téléchargez les deux images ci-dessous :
 
 ![](img/gyra_coll.jpg)
 
-Toujours avec le logiciel WinMD5, calculez l'empreinte MD5 de ces deux photos. Notez l'empreinte à chaque fois. 
+Toujours avec le logiciel WinMD5, calculez l'empreinte MD5 de ces deux photos. Notez bien l'empreinte à chaque fois. 
 
-Comparez ensuite les deux empreintes. Si elles sont identiques, vous venez d'assister à une collision de l'algorithme MD5. 
+Comparez ensuite les deux empreintes. Si elles sont identiques, vous venez d'assister à une collision de l'algorithme MD5. 🥳
 
 Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
 
