@@ -2,7 +2,7 @@
 
 # Exploration du génome d'*Ostreococcus tauri*
 
-## Partie 1
+## Partie 1 : téléchargement des données
 
 1. Allez sur le site [Online Resource for Community Annotation of Eukaryotes (OrcAE)](http://bioinformatics.psb.ugent.be/orcae/)
 2. Cliquez sur **Ostreococcus tauri (V2)**.
@@ -20,7 +20,7 @@
     - Que lisez-vous ?
 
 
-> **Réponses :**
+> **Réponses : **
 > > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
 > >
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,8 Mo.
@@ -32,7 +32,7 @@
 {:.answer}
 
 
-## Partie 2
+## Partie 2 : éditeurs de texte
 
 ### Préparation
 
@@ -51,7 +51,7 @@
     Allez jeter un oeil vers la ligne 193044.
 1. Fermez le *Bloc-notes*.
 
-> **Réponses :**
+> **Réponses : **
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > >
@@ -67,25 +67,24 @@
 ### Visualisation du génome avec *Notepad++*
 
 1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
-1. La lisibilité du fichier est-elle améliorée ?  
-    Que signifie `LF` dans la barre en bas de la fenêtre ?
-1. Comment expliquez-vous cette différence de comportement entre *Bloc-notes* et *Notepad++* ?
+1. Que signifie `LF` dans la barre en bas de la fenêtre ?
 1. Avec votre souris, sélectionnez une ligne entière contenant un morceau de séquence puis regardez la barre en bas de la fenêtre.  
     Sur combien de caractères par ligne sont réparties les séquences des chromosomes de *O. tauri* ?
-1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*
+1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*.
+1. Voyez-vous un moyen de compter très rapidement le nombres de chromosomes ?
 
-> **Réponses :**
+> **Réponses : **
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
-> > Le fichier est beaucoup plus lisible. La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
-> >
-> > *Bloc-notes* n'est capable de lire que des fichiers texte venant de Windows, c'est-à-dire avec des `CR+LF` comme caractères de fin de ligne. *Notepad++* est beaucoup plus polyvalent. C'est un vrai éditeur de texte !
+> > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
 > >
 > > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 50.
 > > ![](img/notepad++_taille_ligne.png)
 > >
-> > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 20 chromosomes. On peut même les compter très rapidement.
+> > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 20 chromosomes.
 > > ![](img/notepad++_rechercher.png)
+> >
+> > On peut même les compter très rapidement en cliquant sur le bouton *Compter* :
 > > ![](img/notepad++_compter.png)
 {:.answer}
 
