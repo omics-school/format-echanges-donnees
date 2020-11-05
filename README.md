@@ -2,7 +2,7 @@
 
 [Tutoriel](https://omics-school.github.io/formats-echanges-donnees-biologie/tutoriel/)
 
-Notices d'installation pour [7-zip](https://omics-school.github.io/formats-echanges-donnees/install-7zip/), [Notepad++](https://omics-school.github.io/formats-echanges-donnees/install-notepadpp/) et [Meld](https://omics-school.github.io/formats-echanges-donnees/install-meld/)
+Notices d'installation pour [7-zip](https://omics-school.github.io/formats-echanges-donnees-biologie/install-7zip/), [Notepad++](https://omics-school.github.io/formats-echanges-donnees-biologie/install-notepadpp/) et [Meld](https://omics-school.github.io/formats-echanges-donnees-biologie/install-meld/)
 
 ## Licence
 
