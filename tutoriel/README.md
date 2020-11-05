@@ -88,6 +88,8 @@ Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fort
 > >
 > > On peut même les compter très rapidement en cliquant sur le bouton *Compter* :
 > > ![](img/notepad++_compter.png)
+> >
+> > On peut automatiser très simplement cette recherche de motif (`>chrom`) et le comptage associé pour des dizaines voire des milliers de fichiers avec un outil comme Unix que nous aborderons prochainement.
 {:.answer}
 
 
@@ -116,7 +118,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 > > | 329      | Ala   | Ser    |
 > >
 > > Le calcul de la position se fait en repérant le numéro (dans la barre en bas de la fenêtre) du caractère correspondant à la mutation puis en ajoutant le nombre de caractères des lignes d'avant (60 caractères par ligne).
-> > Cette méthode est bien sur "artisanale". Pour des séquences plus grandes ou plus nombreuses, il faudrait automatiser cette comparaison avec un programme écrit en Python ou en R 😇.
+> > Cette méthode est bien sur « artisanale ». Pour des séquences plus grandes ou plus nombreuses, il faudrait automatiser cette comparaison avec un programme écrit en Python ou en R par exemple 😇.
 {:.answer}
 
 
@@ -140,6 +142,9 @@ Notez les empreintes MD5 fournies sous chaque fichiers :
 
 Repérez où ont été téléchargés les fichiers (a priori dans le répertoire *Téléchargements*).
 
+**Remarque :** Zenodo est un site très intéressant pour archiver certaines données scientifiques.
+
+
 ## 4.2 Calcul des empreintes
 
 Depuis votre machine, lancez le logiciel *WinMD5* ([aide](img/winmd5_aide.png)).
@@ -152,6 +157,19 @@ Comparez l'empreinte MD5 calculée (dans le champ texte *Current file MD5 checks
 
 Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
+Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec Notepad++ et remplacez le 1er caractère de la 1ère ligne (`p`) par `P` (majuscule). Enregistrez le fichier modifié.
+
+Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
+
+> **Éléments de réponse :**
+> > Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent normalement correspondre à celles indiquées sur Zenodo.
+> >
+> > Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié,
+> > l'empreinte MD5 obtenue est totalement différente de la première.  
+> > Il n'y a aucune relation entre deux sommes de contrôle mais s'il y a qu'un seul caractère
+> > de différence entre les deux fichiers.
+{:.answer}
+
 
 ## 4.3 Collision 😱
 
@@ -163,7 +181,7 @@ Téléchargez les deux images ci-dessous en cliquant droit sur chaque image puis
 
 ![](img/gyra_coll.jpg)
 
-Toujours avec le logiciel WinMD5, calculez l'empreinte MD5 de ces deux photos (`souvlaki_coll.jpg` et `gyra_coll.jpg`, l'extension `.jpg` peut ne pas apparaitre dans l'explorateur de fichiers).
+Toujours avec le logiciel *WinMD5*, calculez l'empreinte MD5 de ces deux photos (`souvlaki_coll.jpg` et `gyra_coll.jpg`, l'extension `.jpg` peut ne pas apparaitre dans l'explorateur de fichiers).
 
 Notez bien l'empreinte à chaque fois. 
 
