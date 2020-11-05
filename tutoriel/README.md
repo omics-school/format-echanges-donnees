@@ -48,7 +48,7 @@
 1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
     Retrouvez-vous le bon nombre de chromosomes ?
 1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?   
-    Allez jeter un oeil vers la ligne 193044.
+    Allez jeter un oeil vers la ligne 193044. La combinaison de touches <kbd>Ctrl</kbd>+<kbd>G</kbd> vous permet de rejoindre une ligne en particulier.
 1. Fermez le *Bloc-notes*.
 
 > **Éléments de réponse :**

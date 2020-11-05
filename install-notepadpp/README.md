@@ -2,6 +2,11 @@
 
 [Notepad++](https://notepad-plus-plus.org/) est un logiciel libre et gratuit. C'est un éditeur de texte très performant pour Windows.
 
+Pour Mac OS X et Linux, vous pouvez utiliser d'autres éditeurs de texte comme [Atom](https://atom.io/) ou [Visual Studio Code](https://code.visualstudio.com/).
+
+
+## Installation sous Windows
+
 Dans un navigateur internet, ouvrez le site de [Notepad++](https://notepad-plus-plus.org/).
 
 Cliquez sur *Download* dans le menu à gauche.
