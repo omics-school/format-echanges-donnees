@@ -4,7 +4,8 @@
 
 Il est disponible pour Windows et Linux. Il existe également une [version dédiée](https://yousseb.github.io/meld/) pour Mac OSX.
 
-## Installation sous Windows
+
+## Installation sous Windows
 
 Dans un navigateur internet, ouvrez le site de [Meld](http://meldmerge.org/).
 

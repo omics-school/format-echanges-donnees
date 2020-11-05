@@ -5,7 +5,7 @@
 Pour Mac OS X et Linux, vous pouvez utiliser d'autres éditeurs de texte comme [Atom](https://atom.io/) ou [Visual Studio Code](https://code.visualstudio.com/).
 
 
-## Installation sous Windows
+## Installation sous Windows
 
 Dans un navigateur internet, ouvrez le site de [Notepad++](https://notepad-plus-plus.org/).
 

@@ -5,7 +5,7 @@
 C'est un logiciel spécifique à Windows. Des équivalents existent pour Mac et Linux (p7zip), mais ces systèmes prennent déjà bien en charge les archives compressées.
 
 
-## Installation sous Windows
+## Installation sous Windows
 
 Dans un navigateur internet, ouvrez le site de [7-Zip](https://www.7-zip.org/).
 
