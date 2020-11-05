@@ -78,7 +78,7 @@ Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fort
 > **Éléments de réponse :**
 > > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec le *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
-> > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix avec lequel les fins de lignes sont `LF` (contre `CR+LF` sous Windows).
+> > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix pour lequel les fins de lignes sont `LF` (contre `CR+LF` pour un fichier créé sous Windows).
 > >
 > > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 50.
 > > ![](img/notepad++_taille_ligne.png)
@@ -166,7 +166,7 @@ Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_dat
 > >
 > > Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié,
 > > l'empreinte MD5 obtenue est totalement différente de la première.  
-> > Il n'y a aucune relation entre deux sommes de contrôle mais s'il y a qu'un seul caractère
+> > Il n'y a aucune relation entre deux sommes de contrôle mais s'il n'y a qu'un seul caractère
 > > de différence entre les deux fichiers.
 {:.answer}
 
