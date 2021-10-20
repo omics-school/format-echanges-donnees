@@ -23,17 +23,6 @@
 > > On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
 {:.answer}
 
-<details>
-<summary> **Éléments de réponse :** </summary>
-Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,7 Mo.
-
-Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz* avec l'application *Bloc-notes*, on obtient :
-
-![](img/bloc-notes_S_cerevisiae_gz.png)
-
-Le fichier n'est pas très lisible. C'est normal car *S288C_reference_genome_Current_Release.tgz* n'est pas un fichier texte. C'est un fichier compressé donc binaire.
-On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
-</details>
 
 ## Partie 2 : éditeurs de texte
 
@@ -74,19 +63,6 @@ On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on 
 > > ![](img/bloc-notes_recherche_mito.png)
 > >
 {:.answer}
-
-
-<details>
-<summary>TEST</summary>
-
-Hello **you** ! `OK`
-
-```
-test
-here
-```
-
-</details>
 
 
 ### 2.3 Visualisation du génome avec *Notepad++*
@@ -153,8 +129,8 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 
 ## 4.1 Préparation
 
-Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur la malaria ayant pour titre
-« *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies* ».
+Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur le paludisme ayant pour titre
+« *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies* », TMIH, 2016 (DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786)).
 
 En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
 
