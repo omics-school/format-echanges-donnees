@@ -14,7 +14,7 @@
     - Que lisez-vous ?
 1. Fermez l'application *Bloc-notes*.
 
-> **Éléments de réponse **
+> **Éléments de réponse :**
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,7 Mo.
 > >
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz* avec l'application *Bloc-notes*, on obtient :
@@ -46,7 +46,7 @@
 1. À quoi correspond la séquence qui n'est pas un chromosome ?
 1. Fermez l'application *Bloc-notes*.
 
-> **Éléments de réponse **
+> **Éléments de réponse :**
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > > 
@@ -78,7 +78,7 @@
 
 *Notepad++* est beaucoup plus puissant que *Bloc-notes* et c'est un logiciel libre (*open source*). Nous vous recommandons fortement son utilisation !
 
-> **Éléments de réponse **
+> **Éléments de réponse :**
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
 > > La mention `Unix(LF)` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix pour lequel les fins de lignes sont `LF` (contre `CR+LF` pour un fichier créé sous Windows).
@@ -165,7 +165,7 @@ Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec *Notepad++
 
 Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
 
-> **Éléments de réponse **
+> **Éléments de réponse :**
 > > Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent normalement correspondre à celles indiquées sur Zenodo.
 > >
 > > Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié,
