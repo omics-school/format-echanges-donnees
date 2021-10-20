@@ -135,7 +135,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
     Remarque : vos fichiers sont a priori dans le répertoire *Downloads*.
 1. Identifiez les position et les types des acides aminés qui diffèrent entre les 2 séquences.
 
-> **Éléments de réponse **
+> **Éléments de réponse :**
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
 > >
