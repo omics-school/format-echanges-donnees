@@ -23,6 +23,18 @@
 > > On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
 {:.answer}
 
+<details>
+<summary> **Éléments de réponse :** </summary>
+Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,7 Mo.
+
+Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz* avec l'application *Bloc-notes*, on obtient :
+
+![](img/bloc-notes_S_cerevisiae_gz.png)
+
+Le fichier n'est pas très lisible. C'est normal car *S288C_reference_genome_Current_Release.tgz* n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
+
+</details>
 
 ## Partie 2 : éditeurs de texte
 
@@ -67,8 +79,7 @@
 
 ### 2.3 Visualisation du génome avec *Notepad++*
 
-1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
-
+1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.  
     Remarque : lancez d'abord *Notepad++* puis glisser-déposez le fichier sur l'application.
 1. Que signifie `Unix (LF)` dans la barre en bas de la fenêtre ?
 1. Avec votre souris, sélectionnez une ligne entière contenant un morceau de séquence puis regardez la barre en bas de la fenêtre.  
