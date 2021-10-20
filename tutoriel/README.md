@@ -86,7 +86,7 @@
 > > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 60.
 > > ![](img/notepad++_taille_ligne.png)
 > >
-> > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 20 chromosomes.
+> > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 16 chromosomes.
 > > ![](img/notepad++_rechercher.png)
 > >
 > > On peut même les compter très rapidement en cliquant sur le bouton *Compter* :
@@ -112,7 +112,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
     Remarque : vos fichiers sont a priori dans le répertoire *Downloads*.
 1. Identifiez les position et les types des acides aminés qui diffèrent entre les 2 séquences.
 
-> **Éléments de réponse :**
+> **Éléments de réponse **
 > > ![](img/meld_dehydrogenase.png)
 > > Les acides aminés différents entre l'homme et le gibbon sont :
 > >
@@ -165,7 +165,7 @@ Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec *Notepad++
 
 Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
 
-> **Éléments de réponse :**
+> **Éléments de réponse **
 > > Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent normalement correspondre à celles indiquées sur Zenodo.
 > >
 > > Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié,
