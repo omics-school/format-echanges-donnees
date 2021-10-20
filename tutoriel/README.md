@@ -201,6 +201,12 @@ L'algorithme MD5 est donc à proscire en sécurité informatique. Il est néanmo
 
 Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
 
+## Pour terminer avec un peu d'humour
+
+Commentez ce [dessin](https://xkcd.com/2298/) du blog XKCD :
+
+![](https://imgs.xkcd.com/comics/coronavirus_genome.png)
+
 
 
 ## Licence
