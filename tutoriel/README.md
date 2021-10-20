@@ -8,13 +8,13 @@
 [*S288C_reference_sequence_R64-3-1_20210421.fsa.gz*](files/S288C_reference_sequence_R64-3-1_20210421.fsa.gz).
     Ce fichier provient de la [Saccharomyces Genome Database (SGD)](https://www.yeastgenome.org/)
 1. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
-1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
+1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'application *Bloc-notes* de Windows. Pour ce faire :
     - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas ([aide](img/bloc-notes_aide.png)).
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 1. Fermez l'application *Bloc-notes*.
 
-> **Éléments de réponse :**
+> **Éléments de réponse **
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,7 Mo.
 > >
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz* avec l'application *Bloc-notes*, on obtient :
@@ -46,7 +46,7 @@
 1. À quoi correspond la séquence qui n'est pas un chromosome ?
 1. Fermez l'application *Bloc-notes*.
 
-> **Éléments de réponse :**
+> **Éléments de réponse **
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
 > > 
@@ -68,6 +68,7 @@
 ### 2.3 Visualisation du génome avec *Notepad++*
 
 1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
+
     Remarque : lancez d'abord *Notepad++* puis glisser-déposez le fichier sur l'application.
 1. Que signifie `Unix (LF)` dans la barre en bas de la fenêtre ?
 1. Avec votre souris, sélectionnez une ligne entière contenant un morceau de séquence puis regardez la barre en bas de la fenêtre.  
@@ -77,7 +78,7 @@
 
 *Notepad++* est beaucoup plus puissant que *Bloc-notes* et c'est un logiciel libre (*open source*). Nous vous recommandons fortement son utilisation !
 
-> **Éléments de réponse :**
+> **Éléments de réponse **
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Notepad++* on obtient :
 > > ![](img/notepad++_ouverture.png)
 > > La mention `Unix(LF)` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix pour lequel les fins de lignes sont `LF` (contre `CR+LF` pour un fichier créé sous Windows).
