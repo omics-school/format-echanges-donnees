@@ -33,7 +33,6 @@ Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz* ave
 
 Le fichier n'est pas très lisible. C'est normal car *S288C_reference_genome_Current_Release.tgz* n'est pas un fichier texte. C'est un fichier compressé donc binaire.
 On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
-
 </details>
 
 ## Partie 2 : éditeurs de texte
@@ -75,6 +74,19 @@ On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on 
 > > ![](img/bloc-notes_recherche_mito.png)
 > >
 {:.answer}
+
+
+<details>
+<summary>TEST</summary>
+
+Hello **you** ! `OK`
+
+```
+test
+here
+```
+
+</details>
 
 
 ### 2.3 Visualisation du génome avec *Notepad++*
