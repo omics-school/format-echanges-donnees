@@ -75,7 +75,7 @@
 1. Vérifiez que tous les chromosomes de *S. cerevisiae* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `chromosome` puis en cliquant sur le bouton *Suivant*.
 1. Voyez-vous un moyen de compter très rapidement le nombres de chromosomes ?
 
-*Notepad++* est beaucoup plus puissant que *Bloc-notes* et c'est un logiciel libre (*open source*). Nous vous recommandons fortement son utilisation !
+[*Notepad++*](https://notepad-plus-plus.org/) est beaucoup plus puissant que *Bloc-notes* et c'est un logiciel libre (*open source*). Nous vous recommandons fortement son utilisation !
 
 > **Éléments de réponse :**
 > > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Notepad++* on obtient :
@@ -102,8 +102,8 @@
 Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees-biologie/install-meld/).
 
 Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
-- de l'homme (P04406) - [UniProt](https://www.uniprot.org/uniprot/P04406) - [local](files/P04406.fasta)
-- du gibbon à favoris blancs du Nord (G1QVR0) -  [UniProt](https://www.uniprot.org/uniprot/G1QVR0) - [local](files/G1QVR0.fasta)
+- de l'homme ([P04406](https://www.uniprot.org/uniprot/P04406)) - [fichier FASTA](files/P04406.fasta)
+- du gibbon à favoris blancs du Nord ([G1QVR0](https://www.uniprot.org/uniprot/G1QVR0)) - [fichier FASTA](files/G1QVR0.fasta)
 
 ### 3.2 Recherche des différences entre deux séquences de déhydrogénase
 
