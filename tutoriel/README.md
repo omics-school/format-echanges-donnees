@@ -1,19 +1,12 @@
 # Tutoriel
 
-# Exploration du génome d'*Ostreococcus tauri*
+# Exploration du génome de *Sacharomyces cerevisiae*
 
 ## Partie 1 : téléchargement des données
 
-1. Allez sur le site [Online Resource for Community Annotation of Eukaryotes (OrcAE)](http://bioinformatics.psb.ugent.be/orcae/)
-2. Cliquez sur **Ostreococcus tauri (V2)**.
-    ![](img/tauri_V2.png)
-    Attention de bien prendre la **V2**, c'est important !  
-    Le serveur peut mettre du temps à répondre. Patientez quelques instants.
-3. Combien *O. tauri* possède de chromosomes ?
-4. Cliquez ensuite sur **Download**  
-    ![](img/tauri_V2_download.png)  
-    puis **assembly_data** puis **O.tauri_genome_V2.1.tfa.gz**
-5. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
+1. Téléchargez le génome de *S. cerevisiae* :
+[*S288C_reference_sequence_R64-3-1_20210421.fsa.gz*](https://omics-school.github.io/formats-echanges-donnees-biologie/S288C_reference_sequence_R64-3-1_20210421.fsa.gz). Ce fichier provient de la [Saccharomyces Genome Database (SGD)](https://www.yeastgenome.org/)
+2. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*) puis déterminez sa taille.
 6. Essayez maintenant d'ouvrir le fichier téléchargé avec l'outil *Bloc-notes* de Windows. Pour ce faire :
     - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas ([aide](img/bloc-notes_aide.png)).
     - Puis glisser-déposez le fichier sur l'application.
@@ -21,13 +14,11 @@
 
 
 > **Éléments de réponse :**
-> > *O. tauri* contient 20 chromosomes. Vous pouvez le vérifiez sur ce [schéma](https://bioinformatics.psb.ugent.be/orcae/overview/OsttaV2)
-> >
 > > Le fichier se trouve a priori dans le répertoire *Téléchargements*. Le fichier a une taille d'environ 3,8 Mo.
 > >
-> > Quand on ouvre le fichier O.tauri_genome_V2.1.tfa.gz avec l'application *Bloc-notes*, on obtient :
+> > Quand on ouvre le fichier S288C_reference_sequence_R64-3-1_20210421.fsa.gz avec l'application *Bloc-notes*, on obtient :
 > > ![](img/bloc-notes_O_tauri_gz.png)
-> > Le fichier n'est pas très lisible. C'est normal car O.tauri_genome_V2.1.tfa.gz n'est pas un fichier texte. C'est un fichier compressé donc binaire.
+> > Le fichier n'est pas très lisible. C'est normal car S288C_reference_genome_Current_Release.tgz n'est pas un fichier texte. C'est un fichier compressé donc binaire.
 > > On ne peut pas ouvrir de fichier binaire avec un éditeur de texte. En fait, on peut techniquement (vous venez de le faire), mais cela n'a aucun intérêt.
 {:.answer}
 
@@ -41,26 +32,25 @@
 
 ### 2.2 Visualisation du génome avec *Bloc-notes*
 
-1. Décompressez le fichier *O.tauri_genome_V2.1.tfa.gz*.  
+1. Décompressez le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa.gz*.  
     Pour cela, cliquez droit sur le fichier puis sélectionnez *7-zip -> Extraire Ici*
-1. Ouvrez le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes*.  
+1. Ouvrez le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Bloc-notes*.  
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
-1. Recherchez les chromosomes de *O. tauri* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
-    Retrouvez-vous le bon nombre de chromosomes ?
-1. L'affichage du fichier est-il cohérent avec vos connaissances du format FASTA ?   
-    Allez jeter un oeil vers la ligne 193044. La combinaison de touches <kbd>Ctrl</kbd>+<kbd>G</kbd> vous permet de rejoindre une ligne en particulier.
+1. Quel est le nombre maximum de bases par ligne ?
+1. Recherchez les chromosomes de *S. cerevisiae* en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>ref` puis en cliquant sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
+    Combien de chromosomes trouvez-vous ?
 1. Fermez le *Bloc-notes*.
 
 > **Éléments de réponse :**
-> > Quand on ouvre le fichier *O.tauri_genome_V2.1.tfa* avec *Bloc-notes* on obtient :
+> > Quand on ouvre le fichier *S288C_reference_sequence_R64-3-1_20210421.fsa* avec *Bloc-notes* on obtient :
 > > ![](img/bloc-notes.png)
+> > 
+> > Les lignes de séquences sont formatées avec un maximum de 60 bases par ligne.
 > >
-> > La fonction *Rechercher* (obtenue en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>) permet de les retrouver un par un
+> > La fonction *Rechercher* (obtenue en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>) permet de retrouver les chromosomes un par un
 > > ![](img/bloc-notes_recherche.png)
-> > En cliquant plusieurs fois sur le bouton *Suivant*, on retrouve les 20 chromosomes.
+> > En cliquant plusieurs fois sur le bouton *Suivant*, on trouve 16 chromosomes (+ une séquence pour la mitochondrie).
 > >
-> > Dans un fichier FASTA, les séquences sont réparties sur des lignes avec un nombre fixe de caractères. Cela ne semble pas être toujours le cas ici, par exemple à partir de la ligne 193044 !
-> > ![](img/bloc-notes_fasta_bug.png)
 {:.answer}
 
 
@@ -69,8 +59,8 @@
 1. Ouvrez le même fichier avec l'éditeur de texte *Notepad++*.
 1. Que signifie `LF` dans la barre en bas de la fenêtre ?
 1. Avec votre souris, sélectionnez une ligne entière contenant un morceau de séquence puis regardez la barre en bas de la fenêtre.  
-    Sur combien de caractères par ligne sont réparties les séquences des chromosomes de *O. tauri* ?
-1. Vérifiez que tous les chromosomes de *O. tauri* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>chrom` puis en cliquant sur le bouton *Suivant*.
+    Sur combien de caractères par ligne sont réparties les séquences des chromosomes de *S. cerevisiae* ?
+1. Vérifiez que tous les chromosomes de *S. cerevisiae* sont bien là en pressant les touches <kbd>Ctrl</kbd>+<kbd>F</kbd> puis en entrant le motif `>ref` puis en cliquant sur le bouton *Suivant*.
 1. Voyez-vous un moyen de compter très rapidement le nombres de chromosomes ?
 
 Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fortement son utilisation !
@@ -80,7 +70,7 @@ Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fort
 > > ![](img/notepad++_ouverture.png)
 > > La mention `LF` dans la barre en bas de la fenêtre signifie que le fichier a été créé sous Unix pour lequel les fins de lignes sont `LF` (contre `CR+LF` pour un fichier créé sous Windows).
 > >
-> > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 50.
+> > En sélectionnant une ligne complète, la barre en bas indique le nombre de caractères. Ici 60.
 > > ![](img/notepad++_taille_ligne.png)
 > >
 > > En utilisant la fonction *Rechercher* de *Notepad++*, on retrouve les 20 chromosomes.
@@ -89,7 +79,7 @@ Notepad++ est beaucoup plus puissant que Bloc-notes. Nous vous recommandons fort
 > > On peut même les compter très rapidement en cliquant sur le bouton *Compter* :
 > > ![](img/notepad++_compter.png)
 > >
-> > On peut automatiser très simplement cette recherche de motif (`>chrom`) et le comptage associé pour des dizaines voire des milliers de fichiers avec un outil comme Unix que nous aborderons prochainement.
+> > On peut automatiser très simplement cette recherche de motif (`>ref`) et le comptage associé pour des dizaines voire des milliers de fichiers avec un outil comme Unix que nous aborderons prochainement.
 {:.answer}
 
 
@@ -191,6 +181,7 @@ Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/info
 
 > **Éléments de réponse :**
 > > Pour les deux images, l'empreinte MD5 est `59bbfd270bdf5817c5d77e739839a02a`.
+> > La collision MD5 que vous avez pu observer n'est pas due au hasaard. Un algorithme particulier a été utilisé pour créer cette collision.
 {:.answer}
 
 
