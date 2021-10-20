@@ -128,7 +128,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 
 # Partie 4 : contrôle d'intégrité
 
-## 4.1 Préparation
+### 4.1 Préparation
 
 Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur le paludisme publié en 2016 : Etoka-Beka et al. TMIH, DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
 
@@ -148,7 +148,7 @@ Repérez où ont été téléchargés les fichiers (a priori dans le répertoire
 **Remarque :** Zenodo est un site très intéressant pour archiver certaines données scientifiques.
 
 
-## 4.2 Calcul des empreintes
+### 4.2 Calcul des empreintes
 
 Depuis votre machine, lancez le logiciel *WinMD5* ([aide](img/winmd5_aide.png)).
 
@@ -174,7 +174,7 @@ Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_dat
 {:.answer}
 
 
-## 4.3 Collision 😱
+### 4.3 Collision 😱
 
 **Attention, cette cascade n'a pas été réalisée par un professionnel, essayez surtout de la reproduire chez vous.**
 
@@ -201,7 +201,7 @@ L'algorithme MD5 est donc à proscire en sécurité informatique. Il est néanmo
 
 Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
 
-## Pour terminer avec un peu d'humour
+# Partie 5 : pour terminer avec un peu d'humour
 
 Commentez ce [dessin](https://xkcd.com/2298/) du blog XKCD :
 
