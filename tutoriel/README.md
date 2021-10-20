@@ -130,8 +130,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 
 ## 4.1 Préparation
 
-Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur le paludisme ayant pour titre
-« *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria ten years after introduction of Artemisinin-combination therapies* », TMIH, 2016 (DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786)).
+Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur le paludisme publié en 2016 : Etoka-Beka et al. TMIH, DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
 
 En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
 
