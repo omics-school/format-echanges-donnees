@@ -105,7 +105,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 - de l'homme ([P04406](https://www.uniprot.org/uniprot/P04406)) - [fichier FASTA](files/P04406.fasta)
 - du gibbon à favoris blancs du Nord ([G1QVR0](https://www.uniprot.org/uniprot/G1QVR0)) - [fichier FASTA](files/G1QVR0.fasta)
 
-### 3.2 Recherche des différences entre deux séquences de déhydrogénase
+### 3.2 Recherche des différences entre deux séquences de déhydrogénase avec Meld
 
 1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre ([aide](img/meld_file_comp.png)). Enfin, cliquez sur *Compare*.
     Remarque : vos fichiers sont a priori dans le répertoire *Downloads*.
@@ -124,6 +124,17 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 > >
 > > Cette méthode est bien sur « artisanale ». Pour des séquences plus grandes ou plus nombreuses, il faudrait automatiser cette comparaison avec un programme écrit en Python ou en R par exemple 😇.
 {:.answer}
+
+
+### 3.3 Recherche des différences entre deux séquences de déhydrogénase avec Notepad++
+
+L'éditeur de texte *Notepad++* propose une extension qui permet, tout comme *Meld* de comparer deux fichiers textes.
+
+En suivant les instructions de cet [article de blog](https://www.it-connect.fr/comment-comparer-deux-fichiers-avec-notepad/) sur le sujet et de la [vidéo correspondante](https://www.youtube.com/watch?v=bLWv-GOxJX8), installez le module *Compare* dans *Notepad++*.
+
+Ouvrez ensuite les deux fichiers FASTA précédents (`P04406.fasta` et `G1QVR0.fasta`) dans *Notepad++*.
+
+Comparez les fonctionnalités et l'ergonomie du module *Compare* de *Notepad++* par rapport à *Meld*.
 
 
 # Partie 4 : contrôle d'intégrité
