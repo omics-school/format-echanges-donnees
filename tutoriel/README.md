@@ -141,7 +141,9 @@ Comparez les fonctionnalités et l'ergonomie du module *Compare* de *Notepad++* 
 
 ### 4.1 Préparation
 
-Sur le site [Zenodo](https://zenodo.org/record/154453), vous trouverez les données d'une étude sur le paludisme publié en 2016 : Etoka-Beka et al. TMIH, DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
+Sur le site [Zenodo](https://zenodo.org/), vous trouverez les données d'une étude sur le paludisme publié en 2016 : Etoka-Beka et al. TMIH, DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
+
+Ouvrez [ici](https://zenodo.org/record/154453) le dépôt Zenodo correspondant à ces données.
 
 En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
 
