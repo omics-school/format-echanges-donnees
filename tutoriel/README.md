@@ -235,11 +235,11 @@ Nous allons pour cela utiliser le logiciel [FileZilla](https://filezilla-project
 Lors de la première connexion : 
 
 1. Acceptez d'enregistrer vos informations de connexion dans FileZilla.
-2. Dans la fenêtre *Clef de l'hôte inconnue*, cochez *Toujours faire confiance à cet hôte, ajoutez cette clef au cache* et cliquez sur le bouton *OK*.
+2. Dans la fenêtre *Clef de l'hôte inconnue*, cochez « *Toujours faire confiance à cet hôte, ajoutez cette clef au cache* » et cliquez sur le bouton *OK*.
 
 Une fois connecté, la fenêtre de FileZilla devrait ressembler à ceci (cliquez pour aggrandir) :
 
-<a hef="img/filezilla_connexion_ifb.png"><img src="img/filezilla_connexion_ifb.png" alt="Fenêtre de connexion FileZilla" width="600"></a>
+<a href="img/filezilla_connexion_ifb.png"><img src="img/filezilla_connexion_ifb.png" alt="Fenêtre de connexion FileZilla" width="800"></a>
 
 - Cet [autre graphique](img/filezilla.png) décompose les différents panneaux de FileZilla.
 - Sur le serveur distant, votre répertoire utilisateur est de la forme `/shared/ifbstore1/home/LOGIN` ou `LOGIN` est votre nom d'utilisateur. Nous verrons lors de la prochaine session ce que signifie `/shared/ifbstore1/home/...`.
