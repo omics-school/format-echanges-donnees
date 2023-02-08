@@ -28,8 +28,8 @@
 
 ### 2.1 Préparation
 
-1. Vérifiez que le logiciel *Notepad++* est bien installé sur votre machine. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-notepadpp/). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
-1. Vérifiez que le logiciel *7-zip* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-7zip/).
+1. Vérifiez que le logiciel *Notepad++* est bien installé sur votre machine en essayant de le lancer (puis en le refermant). Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-notepadpp/). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
+1. Vérifiez également que le logiciel *7-zip* est bien installé (toujours en le lançant puis en le refermant). Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-7zip/).
 
 ### 2.2 Visualisation du génome avec *Bloc-notes*
 
@@ -108,6 +108,7 @@ Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase
 ### 3.2 Recherche des différences entre deux séquences de déhydrogénase avec Meld
 
 1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre ([aide](img/meld_file_comp.png)). Enfin, cliquez sur *Compare*.
+    
     Remarque : vos fichiers sont a priori dans le répertoire *Downloads*.
 1. Identifiez les position et les types des acides aminés qui diffèrent entre les 2 séquences.
 
