@@ -241,19 +241,20 @@ Une fois connecté, la fenêtre de FileZilla devrait ressembler à ceci (cliquez
 
 <a href="img/filezilla_connexion_ifb.png"><img src="img/filezilla_connexion_ifb.png" alt="Fenêtre de connexion FileZilla" width="800"></a>
 
-- Cet [autre graphique](img/filezilla.png) décompose les différents panneaux de FileZilla.
-- Sur le serveur distant, votre répertoire utilisateur est de la forme `/shared/ifbstore1/home/LOGIN` ou `LOGIN` est votre nom d'utilisateur. Nous verrons lors de la prochaine session ce que signifie `/shared/ifbstore1/home/...`.
+- Cet [autre graphique](img/filezilla.png) décompose les différents panneaux de la fenêtre FileZilla.
+- Sur le serveur distant, votre répertoire utilisateur est de la forme `/shared/ifbstore1/home/LOGIN` où `LOGIN` est votre nom d'utilisateur. Nous verrons lors de la prochaine session ce que signifie `/shared/ifbstore1/home/...`.
 
 Ensuite :
 
 1. Dans FileZilla, dans le panneau de gauche correspondant à vos répertoires et fichiers locaux, déplacez-vous dans le répertoire *Downloads* (ou *Téléchargements*).
-1. Retrouvez le fichier correspondant au génome de *S. cerevisiae* **décompressé** (fichier `S288C_reference_sequence_R64-3-1_20210421.fsa`).
+1. Retrouvez le fichier correspondant au génome de *S. cerevisiae* **décompressé**
+    (fichier `S288C_reference_sequence_R64-3-1_20210421.fsa`).
 1. Double-cliquez sur ce fichier pour le transférer vers le serveur de l'IFB.
-1. Quelques instants plus tard, il devrait apparaître dans le panneau de droite, correpondant à vos répertoires et fichiers distants (c'est-à-dire sur le serveur de l'IFB).
-1. Faites le transfert inverse, en double-cliquant sur un fichier dans le panneau droit. Vous tranférerez ainsi un fichier depuis le serveur distant vers votre machine.
-1. Dans un navigateur web, connectez-vous au serveur RStudio de l'IFB : <https://rstudio.cluster.france-bioinformatique.fr/> Vérifiez que le fichier du génome de *S. cerevisiae* apparait bien en bas à droite dans l'explorateur de fichiers (déplacez-vous si besoin dans votre répertoire utilisateur qui est sous la forme `/shared/ifbstore1/home/LOGIN` ou `LOGIN` est votre nom d'utilisateur).
+1. Quelques instants plus tard, il devrait apparaître dans le panneau de droite, correpondant à vos répertoires et fichiers distants (c'est-à-dire sur le serveur de l'IFB). Au besoin, utilisez l'ascenseur à droite de la fenêtre pour parcourir tous les fichiers du répertoire.
+1. Faites le transfert inverse, en double-cliquant sur un fichier dans le panneau de droite. Vous tranférerez ainsi ce fichier depuis le serveur distant vers votre machine. Vérifie que ce fichier est bien présent sur votre machine (panneau de gauche).
+1. Dans un navigateur web, connectez-vous au serveur RStudio de l'IFB : <https://rstudio.cluster.france-bioinformatique.fr/> Vérifiez que le fichier du génome de *S. cerevisiae* apparait bien en bas à droite dans l'explorateur de fichiers (déplacez-vous si besoin dans votre répertoire utilisateur qui est sous la forme `/shared/ifbstore1/home/LOGIN` où `LOGIN` est votre nom d'utilisateur).
 
-**Remarque :** lors de la dernière session, vous avez utilisé l'adresse <https://rstudio.cluster.france-bioinformatique.fr/> comme adresse du serveur RStudio de l'IFB. Pour un transfert de fichiers par FileZilla (via le protocole SSH), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez que les mêmes répertoires sont visbiles d'un serveur à l'autre.
+**Remarque :** lors de la dernière session, vous avez utilisé l'adresse <https://rstudio.cluster.france-bioinformatique.fr/> comme adresse du serveur RStudio de l'IFB. Pour un transfert de fichiers par FileZilla (via le protocole SSH), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez que les mêmes répertoires sont visibles d'un serveur à l'autre.
 
 # Partie 6 : pour terminer avec un peu d'humour
 
