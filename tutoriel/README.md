@@ -1,5 +1,7 @@
 # Tutoriel
 
+N'oubliez pas de renseigner votre progression dans le tableau de bord.
+
 # Exploration du génome de *Sacharomyces cerevisiae*
 
 ## Partie 1 : téléchargement des données
