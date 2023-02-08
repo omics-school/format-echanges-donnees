@@ -28,8 +28,8 @@
 
 ### 2.1 Préparation
 
-1. Vérifiez que le logiciel *Notepad++* est bien installé sur votre machine. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees-biologie/install-notepadpp/). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
-1. Vérifiez que le logiciel *7-zip* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees-biologie/install-7zip/).
+1. Vérifiez que le logiciel *Notepad++* est bien installé sur votre machine. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-notepadpp/). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
+1. Vérifiez que le logiciel *7-zip* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-7zip/).
 
 ### 2.2 Visualisation du génome avec *Bloc-notes*
 
@@ -99,7 +99,7 @@
 
 ### 3.1 Préparation
 
-Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://omics-school.github.io/formats-echanges-donnees-biologie/install-meld/).
+Vérifiez que le logiciel *Meld* est bien installé. Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](https://pierrepo.github.io/formats-echanges-donnees-biologie/install-meld/).
 
 Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
 - de l'homme ([P04406](https://www.uniprot.org/uniprot/P04406)) - [fichier FASTA](files/P04406.fasta)
