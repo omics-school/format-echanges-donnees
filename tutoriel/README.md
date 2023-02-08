@@ -154,7 +154,7 @@ En bas de la page, dans la rubrique *Files*, téléchargez les fichiers :
 
 Si lors du téléchargement, Firefox vous demande quoi faire avec ces fichiers, choisissez *Enregistrer le fichier*.
 
-Notez les empreintes MD5 fournies sous chaque fichiers :
+Notez les empreintes MD5 fournies sous chaque fichier :
 
 ![](img/malaria_md5.png)
 
@@ -221,7 +221,7 @@ Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/info
 
 Le dernier aspect abordé dans ce tutoriel concerne le transfert de données, depuis votre machine locale vers un serveur distant (le serveur RStudio de l'IFB par exemple) et inversement.
 
-Nous allons pour cela utiliser le logiciel [FileZilla](https://filezilla-project.org/), logiciel libre et gratuit disponible pour Windows, Linux et Mac.
+Nous allons pour cela utiliser le logiciel [FileZilla](https://filezilla-project.org/), logiciel libre et gratuit, disponible pour Windows, Linux et Mac.
 
 1. Lancez d'abord *FileZilla* avec la petite loupe dans la barre d'outils en bas ([aide](img/filezilla_lancement.png)).
 1. Tout en haut, dans le champ *Hôte* indiquez l'adresse du serveur de l'IFB : 
@@ -255,7 +255,7 @@ Ensuite :
 1. Faites le transfert inverse, en double-cliquant sur un fichier dans le panneau de droite. Vous tranférerez ainsi ce fichier depuis le serveur distant vers votre machine. Vérifie que ce fichier est bien présent sur votre machine (panneau de gauche).
 1. Dans un navigateur web, connectez-vous au serveur RStudio de l'IFB : <https://rstudio.cluster.france-bioinformatique.fr/> Vérifiez que le fichier du génome de *S. cerevisiae* apparait bien en bas à droite dans l'explorateur de fichiers (déplacez-vous si besoin dans votre répertoire utilisateur qui est sous la forme `/shared/ifbstore1/home/LOGIN` où `LOGIN` est votre nom d'utilisateur).
 
-**Remarque :** lors de la dernière session, vous avez utilisé l'adresse <https://rstudio.cluster.france-bioinformatique.fr/> comme adresse du serveur RStudio de l'IFB. Pour un transfert de fichiers par FileZilla (via le protocole SSH), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez que les mêmes répertoires sont visibles d'un serveur à l'autre.
+**Remarque :** lors de la dernière session, vous avez utilisé l'adresse <https://rstudio.cluster.france-bioinformatique.fr/> comme adresse du serveur RStudio de l'IFB. Pour un transfert de fichiers par FileZilla (via le protocole SSH), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez par contre que les mêmes répertoires sont visibles d'un serveur à l'autre.
 
 # Partie 6 : pour terminer avec un peu d'humour
 
