@@ -1,6 +1,6 @@
 # Tutoriel
 
-N'oubliez pas de renseigner votre progression dans le tableau de bord.
+N'oubliez pas de renseigner votre progression dans le tableau de bord (lien sur Moodle).
 
 # Exploration du génome de *Sacharomyces cerevisiae*
 
