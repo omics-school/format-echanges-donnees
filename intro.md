@@ -2,15 +2,8 @@
 
 N'oubliez pas de renseigner votre progression dans le tableau de bord (lien sur Moodle).
 
-
-
-
-# Partie 6 : pour terminer avec un peu d'humour
-
-Commentez ce [dessin](https://xkcd.com/2298/) du blog XKCD :
-
-![](https://imgs.xkcd.com/comics/coronavirus_genome.png)
-
+```{tableofcontents}
+```
 
 
 ## Licence

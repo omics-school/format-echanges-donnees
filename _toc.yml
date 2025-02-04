@@ -5,12 +5,14 @@ format: jb-book
 root: intro
 parts:
 - caption: Tutoriel
+  numbered: true
   chapters:
   - file: 1_genome
   - file: 2_editeurs_texte
   - file: 3_differences
   - file: 4_controle_integrite
   - file: 5_transfert_donnees
+  - file: 6_humour
 - caption: Notices d'installation (sous Windows)
   chapters:
   - file: install-7zip/README
