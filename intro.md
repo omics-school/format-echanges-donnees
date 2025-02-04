@@ -1,6 +1,9 @@
-# Tutoriel
+# Formats et échanges de données en biologie
 
+```{note}
 N'oubliez pas de renseigner votre progression dans le tableau de bord (lien sur Moodle).
+```
+
 
 ```{tableofcontents}
 ```
