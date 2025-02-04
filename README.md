@@ -1,10 +1,12 @@
 # Formats et échanges de données en biologie
 
-➡️ [Tutoriel](tutoriel/)
+https://pierrepo.github.io/formats-echanges-donnees-biologie/
 
-<br /><br />
+## Test local
 
-Notices d'installation pour [7-zip](install-7zip/), [Notepad++](install-notepadpp/) et [Meld](install-meld/)
+```bash
+uv run jupyter-book build .
+```
 
 ## Licence
 
