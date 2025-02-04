@@ -1,1 +1,5 @@
-TODONEXT.md
+# JupyterBook output
+_build/
+
+# Virtual environment
+.venv/
