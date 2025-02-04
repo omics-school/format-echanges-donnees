@@ -392,7 +392,6 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Tutoriel</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#partie-5-transfert-de-donnees">Partie 5 : transfert de données</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#partie-6-pour-terminer-avec-un-peu-d-humour">Partie 6 : pour terminer avec un peu d’humour</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#licence">Licence</a></li>
 </ul>
@@ -412,45 +411,6 @@
   <section id="tutoriel">
 <h1>Tutoriel<a class="headerlink" href="#tutoriel" title="Link to this heading">#</a></h1>
 <p>N’oubliez pas de renseigner votre progression dans le tableau de bord (lien sur Moodle).</p>
-</section>
-<section id="partie-5-transfert-de-donnees">
-<h1>Partie 5 : transfert de données<a class="headerlink" href="#partie-5-transfert-de-donnees" title="Link to this heading">#</a></h1>
-<p>Le dernier aspect abordé dans ce tutoriel concerne le transfert de données, depuis votre machine locale vers un serveur distant (le serveur RStudio de l’IFB par exemple) et inversement.</p>
-<p>Nous allons pour cela utiliser le logiciel <a class="reference external" href="https://filezilla-project.org/">FileZilla</a>, logiciel libre et gratuit, disponible pour Windows, Linux et Mac.</p>
-<ol class="arabic">
-<li><p>Lancez d’abord <em>FileZilla</em> avec la petite loupe dans la barre d’outils en bas (<a class="reference download internal" download="" href="_downloads/bd842200db233d58b11757f1f9f4e1e6/filezilla_lancement.png"><span class="xref download myst">aide</span></a>).</p></li>
-<li><p>Tout en haut, dans le champ <em>Hôte</em> indiquez l’adresse du serveur de l’IFB :</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sftp</span><span class="p">:</span><span class="o">//</span><span class="n">core</span><span class="o">.</span><span class="n">cluster</span><span class="o">.</span><span class="n">france</span><span class="o">-</span><span class="n">bioinformatique</span><span class="o">.</span><span class="n">fr</span>
-</pre></div>
-</div>
-<p>(voir remarque plus bas concernant l’adresse du serveur).</p>
-</li>
-<li><p>Dans le champ <em>Nom d’utilisateur</em>, indiquez le nom d’utilisateur de votre compte sur le serveur de l’IFB.</p></li>
-<li><p>Dans le champ <em>Mot de passe</em>, indiquez le mot de passe de votre compte sur le serveur de l’IFB.</p></li>
-<li><p>Cliquez enfin sur le bouton <em>Connexion rapide</em>.</p></li>
-</ol>
-<p>Lors de la première connexion :</p>
-<ol class="arabic simple">
-<li><p>Acceptez d’enregistrer vos informations de connexion dans FileZilla.</p></li>
-<li><p>Dans la fenêtre <em>Clef de l’hôte inconnue</em>, cochez « <em>Toujours faire confiance à cet hôte, ajoutez cette clef au cache</em> » et cliquez sur le bouton <em>OK</em>.</p></li>
-</ol>
-<p>Une fois connecté, la fenêtre de FileZilla devrait ressembler à ceci (cliquez pour aggrandir) :</p>
-<p><a href="img/filezilla_connexion_ifb.png"><a class="reference internal" href="_images/filezilla_connexion_ifb.png"><img alt="Fenêtre de connexion FileZilla" src="_images/filezilla_connexion_ifb.png" style="width: 800px;" /></a></a></p>
-<ul class="simple">
-<li><p>Cet <a class="reference download internal" download="" href="_downloads/78df937ff1d402f0e93607885668e785/filezilla.png"><span class="xref download myst">autre graphique</span></a> décompose les différents panneaux de la fenêtre FileZilla.</p></li>
-<li><p>Sur le serveur distant, votre répertoire utilisateur est de la forme <code class="docutils literal notranslate"><span class="pre">/shared/ifbstore1/home/LOGIN</span></code> où <code class="docutils literal notranslate"><span class="pre">LOGIN</span></code> est votre nom d’utilisateur. Nous verrons lors de la prochaine session ce que signifie <code class="docutils literal notranslate"><span class="pre">/shared/ifbstore1/home/...</span></code>.</p></li>
-</ul>
-<p>Ensuite :</p>
-<ol class="arabic simple">
-<li><p>Dans FileZilla, dans le panneau de gauche correspondant à vos répertoires et fichiers locaux, déplacez-vous dans le répertoire <em>Downloads</em> (ou <em>Téléchargements</em>).</p></li>
-<li><p>Retrouvez le fichier correspondant au génome de <em>S. cerevisiae</em> <strong>décompressé</strong>
-(fichier <code class="docutils literal notranslate"><span class="pre">S288C_reference_sequence_R64-3-1_20210421.fsa</span></code>).</p></li>
-<li><p>Double-cliquez sur ce fichier pour le transférer vers le serveur de l’IFB.</p></li>
-<li><p>Quelques instants plus tard, il devrait apparaître dans le panneau de droite, correpondant à vos répertoires et fichiers distants (c’est-à-dire sur le serveur de l’IFB). Au besoin, utilisez l’ascenseur à droite de la fenêtre pour parcourir tous les fichiers du répertoire.</p></li>
-<li><p>Faites le transfert inverse, en double-cliquant sur un fichier dans le panneau de droite. Vous tranférerez ainsi ce fichier depuis le serveur distant vers votre machine. Vérifie que ce fichier est bien présent sur votre machine (panneau de gauche).</p></li>
-<li><p>Dans un navigateur web, connectez-vous au serveur RStudio de l’IFB : <a class="reference external" href="https://rstudio.cluster.france-bioinformatique.fr/">https://rstudio.cluster.france-bioinformatique.fr/</a> Vérifiez que le fichier du génome de <em>S. cerevisiae</em> apparait bien en bas à droite dans l’explorateur de fichiers (déplacez-vous si besoin dans votre répertoire utilisateur qui est sous la forme <code class="docutils literal notranslate"><span class="pre">/shared/ifbstore1/home/LOGIN</span></code> où <code class="docutils literal notranslate"><span class="pre">LOGIN</span></code> est votre nom d’utilisateur).</p></li>
-</ol>
-<p><strong>Remarque :</strong> lors de la dernière session, vous avez utilisé l’adresse <a class="reference external" href="https://rstudio.cluster.france-bioinformatique.fr/">https://rstudio.cluster.france-bioinformatique.fr/</a> comme adresse du serveur RStudio de l’IFB. Pour un transfert de fichiers par FileZilla (via le protocole SSH), il faut se connecter au serveur <code class="docutils literal notranslate"><span class="pre">sftp://core.cluster.france-bioinformatique.fr</span></code>. Vous verrez par contre que les mêmes répertoires sont visibles d’un serveur à l’autre.</p>
 </section>
 <section id="partie-6-pour-terminer-avec-un-peu-d-humour">
 <h1>Partie 6 : pour terminer avec un peu d’humour<a class="headerlink" href="#partie-6-pour-terminer-avec-un-peu-d-humour" title="Link to this heading">#</a></h1>
@@ -525,7 +485,6 @@
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Tutoriel</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#partie-5-transfert-de-donnees">Partie 5 : transfert de données</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#partie-6-pour-terminer-avec-un-peu-d-humour">Partie 6 : pour terminer avec un peu d’humour</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#licence">Licence</a></li>
 </ul>
