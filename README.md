@@ -14,10 +14,10 @@ uv sync
 Compiler le site :
 
 ```bash
-uv run jupyter-book build .
+uv run jupyter-book build content
 ```
 
-Le site compilé se trouve dans le dossier `_build/html`.
+Le site compilé se trouve dans le dossier `content/_build/html`.
 
 
 ## Licence
