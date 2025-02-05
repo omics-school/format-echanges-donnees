@@ -2,11 +2,23 @@
 
 https://pierrepo.github.io/formats-echanges-donnees-biologie/
 
-## Test local
+
+## Compilation locale
+
+Reconstruire l'environnement de développement :
+
+```bash
+uv sync
+```
+
+Compiler le site :
 
 ```bash
 uv run jupyter-book build .
 ```
+
+Le site compilé se trouve dans le dossier `_build/html`.
+
 
 ## Licence
 
