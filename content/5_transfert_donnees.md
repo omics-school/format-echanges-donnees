@@ -38,7 +38,7 @@ Sur le serveur distant, votre répertoire utilisateur est de la forme `/shared/i
 ```{admonition} Complément d'information
 :class: note, dropdown
 
-Rappel de la signification des différents panneaux de l'application FileZilla.
+Signification des différents panneaux de l'application FileZilla.
 
 ![](img/filezilla.png)
 ```
@@ -59,7 +59,9 @@ Rappel de la signification des différents panneaux de l'application FileZilla.
 Lors de la dernière session, vous vous êtes connectés avec votre navigateur web (protocole HTTPS, port 443) au serveur *OnDemand* de l'IFB dont l'adresse est `https://ondemand.cluster.france-bioinformatique.fr/`  
 L'interface *OnDemand* vous a donné accès à RStudio.
 
-Pour un transfert de fichiers par FileZilla, qui utilise le protocole SSH (port 22), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez par contre que les mêmes répertoires sont visibles d'un serveur à l'autre.
+Pour un transfert de fichiers par FileZilla, qui utilise le protocole SSH/SFTP (port 22), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`.
+
+Vous verrez par contre que les mêmes répertoires sont visibles d'un serveur à l'autre.
 ```
 
 ## Conclusion
