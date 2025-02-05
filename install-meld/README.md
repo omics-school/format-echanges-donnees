@@ -9,11 +9,11 @@ Il est disponible pour Windows et Linux. Il existe également une [version dédi
 
 Dans un navigateur internet, ouvrez le site de [Meld](http://meldmerge.org/).
 
-Cliquez sur le bouton *Meld 3.20.0* en bas à droite de la page. Attention, le nom peut être légèrement différent si une nouvelle version est disponible.
+Cliquez sur le bouton *Meld 3.20.0* en bas à droite de la page. Attention, le nom peut être  différent si une nouvelle version est disponible.
 
 ![](img/meld_00.png)
 
-Enregistrez le ficher proposé au téléchargement. Ici *Meld-3.20.0-mingw.msi*
+Enregistrez le fichier proposé au téléchargement. Ici *Meld-3.20.0-mingw.msi*
 
 Une fois téléchargé, retrouvez où le fichier a été enregistré (a priori dans le répertoire *Téléchargements*).
 
