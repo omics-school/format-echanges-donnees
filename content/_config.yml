@@ -19,7 +19,7 @@ repository:
 
 parse:
   # Parse and render settings
-  myst_links_external_new_tab: true
+  # myst_links_external_new_tab: true
   #myst_enable_extensions:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
