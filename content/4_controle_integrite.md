@@ -41,6 +41,8 @@ Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
 Si les deux fichiers ont été téléchargés correctement,
 les empreintes calculées doivent correspondre à celles indiquées sur Zenodo.
+
+Si ce n'est pas le cas, téléchargez à nouveau les fichiers et réessayez.
 ```
 
 Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec *Notepad++* et remplacez le 1er caractère de la 1ère ligne (`p`) par `P` (majuscule). Enregistrez le fichier modifié.
@@ -55,7 +57,7 @@ l'empreinte MD5 obtenue est totalement différente de la première.
 
 ```{warning}
 Il n'y a **aucune relation** entre deux sommes de contrôle,
-même s'il n'y a qu'un seul caractère de différence entre les deux fichiers.
+même s'il n'y a qu'un seul caractère de différence entre deux fichiers.
 ```
 ````
 
@@ -85,7 +87,12 @@ Pour les deux images, l'empreinte MD5 est `59bbfd270bdf5817c5d77e739839a02a`.
 
 La collision MD5 que vous avez observée n'est pas due au hasard. Un algorithme particulier a été utilisé pour créer volontairement cette collision.
 
-L'algorithme MD5 est donc à proscrire en sécurité informatique. Il est néanmoins parfaitement utilisable (et encore très utilisé) dans un contexte scientifique.
+```{note}
+L'algorithme MD5 est donc à proscrire en sécurité informatique.
+Il est néanmoins parfaitement utilisable (et encore très utilisé) dans un contexte scientifique.
+N'hésitez pas à demander aux plateformes technologiques qui réalisent vos séquençages haut-débit
+les empreintes MD5 des fichiers qu'ils vous envoient, notamment des fichiers brutes (FASTQ, RAW...).
+```
 
 Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
 
