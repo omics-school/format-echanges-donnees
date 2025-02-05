@@ -20,10 +20,10 @@ repository:
 parse:
   # Parse and render settings
   myst_links_external_new_tab: true
-  myst_enable_extensions:
+  #myst_enable_extensions:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
-    - html_image
+  #  - html_image
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
