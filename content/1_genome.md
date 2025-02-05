@@ -6,6 +6,13 @@
 1. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*), puis déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'application *Bloc-notes* de Windows. Pour ce faire :
     - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas ([aide](img/bloc-notes_aide.png)).
+
+    ```{admonition} Éléments de réponse
+    :class: tip, dropdown
+
+    ![aide](img/bloc-notes_aide.png)
+    ```
+
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?
 1. Fermez l'application *Bloc-notes*.
