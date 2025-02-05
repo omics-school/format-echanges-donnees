@@ -90,8 +90,9 @@ La collision MD5 que vous avez observée n'est pas due au hasard. Un algorithme 
 ```{note}
 L'algorithme MD5 est donc à proscrire en sécurité informatique.
 Il est néanmoins parfaitement utilisable (et encore très utilisé) dans un contexte scientifique.
+
 N'hésitez pas à demander aux plateformes technologiques qui réalisent vos séquençages haut-débit
-les empreintes MD5 des fichiers qu'ils vous envoient, notamment des fichiers brutes (FASTQ, RAW...).
+les empreintes MD5 des fichiers qu'ils vous envoient, notamment des fichiers brutes (FASTQ).
 ```
 
 Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/).
