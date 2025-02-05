@@ -102,10 +102,10 @@ Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/info
 
 Reprenez les deux images précédentes et essayez d'obtenir leurs empreintes avec les algorithmes suivants :
 
-- SHA1 (Dans le menu à gauche, sélectionnez *SHA1*, puis *SHA1 File*)
-- SHA256 (Dans le menu à gauche, sélectionnez *SHA2*, puis *SHA256 File*)
+- SHA1 (Dans le menu à gauche, sélectionnez *SHA1*, puis [*SHA1 File*](https://emn178.github.io/online-tools/sha1_checksum.html))
+- SHA256 (Dans le menu à gauche, sélectionnez *SHA2*, puis [*SHA256 File*](https://emn178.github.io/online-tools/sha256_checksum.html))
 
-Ces empreintes sont-elles identiques ou différentes, pourquoi  ?
+Ces empreintes sont-elles identiques ou différentes ? Pourquoi ?
 
 ```{admonition} Éléments de réponse
 :class: tip, dropdown
