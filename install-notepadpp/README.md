@@ -2,7 +2,7 @@
 
 [Notepad++](https://notepad-plus-plus.org/) est un logiciel libre et gratuit. C'est un éditeur de texte très performant pour Windows.
 
-Pour Mac OS X et Linux, vous pouvez utiliser d'autres éditeurs de texte comme [Atom](https://atom.io/) ou [Visual Studio Code](https://code.visualstudio.com/).
+Pour Mac OS X et Linux, vous pouvez utiliser d'autres éditeurs de texte comme [Visual Studio Code](https://code.visualstudio.com/).
 
 
 ## Installation sous Windows
@@ -15,11 +15,11 @@ Cliquez ensuite sur la dernière version du logiciel :
 
 ![](img/npp_00.png)
 
-Descendez ensuite dans la page jusqu'à la rubrique *Donwload 64-bit x64* et cliquez sur *Installer*.
+Descendez ensuite dans la page jusqu'à la rubrique *Download 64-bit x64* et cliquez sur *Installer*.
 
 ![](img/npp_000.png)
 
-Enregistrez le ficher proposé au téléchargement. Ici *npp.7.9.1.Installer.x64.exe*, mais le nom peut être légèrement différent si une nouvelle version est disponible.
+Enregistrez le fichier proposé au téléchargement. Ici *npp.7.9.1.Installer.x64.exe*, mais le nom peut être différent si une nouvelle version est disponible.
 
 Une fois téléchargé, retrouvez où le fichier a été enregistré (a priori dans le répertoire *Téléchargements*).
 

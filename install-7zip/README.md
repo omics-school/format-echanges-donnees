@@ -13,7 +13,7 @@ Dans le tableau en haut de la page, cliquez sur le lien *Download* correspond à
 
 ![](img/7zip_01.png)
 
-Enregistrez le ficher proposé au téléchargement. Ici *7z1806-x64.exe*, mais le nom peut être légèrement différent si une nouvelle version est disponible..
+Enregistrez le fichier proposé au téléchargement. Ici *7z1806-x64.exe*, mais le nom peut être  différent si une nouvelle version est disponible.
 
 Une fois téléchargé, retrouvez où le fichier a été enregistré (a priori dans le répertoire *Téléchargements*).
 
