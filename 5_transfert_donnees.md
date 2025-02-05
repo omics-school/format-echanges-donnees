@@ -43,3 +43,11 @@ Lors de la dernière session, vous vous êtes connectés avec votre navigateur w
 Pour un transfert de fichiers par FileZilla, qui utilise le protocole SSH (port 22), il faut se connecter au serveur `sftp://core.cluster.france-bioinformatique.fr`. Vous verrez par contre que les mêmes répertoires sont visibles d'un serveur à l'autre.
 ```
 
+## Conclusion
+
+Que ce soit directement dans l'interface de RStudio ou avec le logiciel FileZilla, vous savez désormais transférer des fichiers depuis votre machine locale vers le serveur IFB et inversement.
+
+FileZilla est un logiciel dédié au transfert de fichiers, il est tout indiqué pour transférer de nombreux fichiers (au-delà d'une dizaine) ou des fichiers de grande taille (au-delà de quelques dizaines de Mo). FileZilla est en effet capable de prendre en charge des transferts en parallèle et de reprendre un transfert interrompu (particulièrement utile pour les gros fichiers).
+
+Pour transférer de petits fichiers (comme des scripts R, des fichiers CSV, etc.), nous vous conseillons d'utiliser l'interface de RStudio (ou JupyterLab que nous verrons prochainement) qui est plus simple d'utilisation.
+```
