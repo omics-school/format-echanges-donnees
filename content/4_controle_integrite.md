@@ -54,7 +54,7 @@ Il n'y a **aucune relation** entre deux sommes de contrôle même s'il n'y a qu'
 ## Collision 😱
 
 ```{warning}
-Attention, cette cascade n'a pas été réalisée par un professionnel, essayez surtout de la reproduire chez vous.
+Attention, cette cascade n'a pas été réalisée par un professionnel, essayez de la reproduire chez vous.
 ```
 Téléchargez les deux images ci-dessous en cliquant droit sur chaque image puis en choisissant *Enregistrer l'image sous...*.
 

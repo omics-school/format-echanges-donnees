@@ -5,13 +5,13 @@
     Ce fichier provient de la [Saccharomyces Genome Database (SGD)](https://www.yeastgenome.org/).
 1. Trouvez où ce fichier a été téléchargé sur votre ordinateur (a priori dans le répertoire *Téléchargements*), puis déterminez sa taille.
 1. Essayez maintenant d'ouvrir le fichier téléchargé avec l'application *Bloc-notes* de Windows. Pour ce faire :
-    - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas ([aide](img/bloc-notes_aide.png)).
+    - Lancez d'abord *Bloc-notes* avec la petite loupe dans la barre d'outils en bas.
 
-    ```{admonition} Éléments de réponse
-    :class: tip, dropdown
+        ```{admonition} Aide
+        :class: hint, dropdown
 
-    ![aide](img/bloc-notes_aide.png)
-    ```
+        ![](img/bloc-notes_aide.png)
+        ```
 
     - Puis glisser-déposez le fichier sur l'application.
     - Que lisez-vous ?

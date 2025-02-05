@@ -4,7 +4,14 @@ Le dernier aspect abordé dans ce tutoriel concerne le transfert de données, de
 
 Nous allons pour cela utiliser le logiciel [FileZilla](https://filezilla-project.org/), logiciel libre et gratuit, disponible pour Windows, Linux et Mac.
 
-1. Lancez d'abord *FileZilla* avec la petite loupe dans la barre d'outils en bas ([aide](img/filezilla_lancement.png)).
+1. Lancez d'abord *FileZilla* avec la petite loupe dans la barre d'outils en bas.
+
+    ```{admonition} Aide
+    :class: hint, dropdown
+
+    ![](img/filezilla_lancement.png)
+    ```
+
 1. Tout en haut, dans le champ *Hôte* indiquez l'adresse du serveur de l'IFB : 
     ```
     sftp://core.cluster.france-bioinformatique.fr
@@ -23,7 +30,7 @@ Une fois connecté, la fenêtre de FileZilla devrait ressembler à ceci (cliquez
 
 <a href="img/filezilla_connexion_ifb.png"><img src="img/filezilla_connexion_ifb.png" alt="Fenêtre de connexion FileZilla" width="800"></a>
 
-- Cet [autre graphique](img/filezilla.png) décompose les différents panneaux de la fenêtre FileZilla.
+- Cette [image](img/filezilla.png) décompose les différents panneaux de la fenêtre FileZilla.
 - Sur le serveur distant, votre répertoire utilisateur est de la forme `/shared/ifbstore1/home/LOGIN` où `LOGIN` est votre nom d'utilisateur. Nous verrons lors de la prochaine session ce que signifie `/shared/ifbstore1/home/...`.
 
 Ensuite :

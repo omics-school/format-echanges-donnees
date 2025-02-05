@@ -2,8 +2,8 @@
 
 ## Préparation
 
-1. Vérifiez que le logiciel *Notepad++* est installé sur votre machine en essayant de le lancer (puis en le refermant). Si ce n'est pas le cas, installez-le, en suivant la notice détaillée [ici](install-notepadpp/README). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
-1. Vérifiez également que le logiciel *7-zip* est installé (toujours en le lançant puis en le refermant). Si ce n'est pas le cas, installez-le en suivant la notice détaillée [ici](install-7zip/README).
+1. Vérifiez que le logiciel *Notepad++* est installé sur votre machine en essayant de le lancer (puis en le refermant). Si ce n'est pas le cas, installez-le, en suivant la [notice détaillée](install-notepadpp/README). Si le logiciel vous demande de se mettre à jour, acceptez et suivez la procédure.
+1. Vérifiez également que le logiciel *7-zip* est installé (toujours en le lançant puis en le refermant). Si ce n'est pas le cas, installez-le en suivant la [notice détaillée](install-7zip/README).
 
 
 ## Visualisation du génome avec *Bloc-notes*
@@ -15,9 +15,23 @@
     Remarque : lancez d'abord *Bloc-notes* puis glisser-déposez le fichier sur l'application.
 1. Quel est le nombre maximum de bases par ligne ?
 1. Combien de séquences sont disponibles dans ce fichier ?
-    Pour cela, pressez les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>, entrez le motif `>ref` dans le champ *Rechercher* puis cliquez sur le bouton *Suivant* ([aide](img/bloc-notes_recherche.png)).  
+    Pour cela, pressez les touches <kbd>Ctrl</kbd>+<kbd>F</kbd>, entrez le motif `>ref` dans le champ *Rechercher* puis cliquez sur le bouton *Suivant*.
+
+    ```{admonition} Aide
+    :class: hint, dropdown
+
+    ![](img/bloc-notes_recherche.png)
+    ```
+
     Combien de séquences trouvez-vous ?
-1. En utilisant la même procédure, mais cette fois, en recherchant le mot clé `chromosome`, déterminez le nombre de chromosomes de *S. cerevisiae* ([aide](img/bloc-notes_recherche_chromo.png)).
+1. En utilisant la même procédure, mais cette fois, en recherchant le mot clé `chromosome`, déterminez le nombre de chromosomes de *S. cerevisiae*.
+
+    ```{admonition} Aide
+    :class: hint, dropdown
+
+    ![](img/bloc-notes_recherche_chromo.png)
+    ```
+
 1. À quoi correspond la séquence qui n'est pas un chromosome ?
 1. Fermez l'application *Bloc-notes*.
 

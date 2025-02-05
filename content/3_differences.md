@@ -24,7 +24,16 @@ Vos fichiers FASTA sont a priori dans le répertoire *Téléchargements*.
 Si *Meld* n'est pas installé sur votre machine. Utilisez le site [*Mergely*](https://editor.mergely.com/) qui permet de comparer deux fichiers texte en ligne.
 ```
 
-1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre ([aide](img/meld_file_comp.png)). Enfin, cliquez sur *Compare*.
+1. Lancez *Meld*, cliquez sur *File comparison*, cliquez sur *(None)* et sélectionnez les deux fichiers FASTA l'un après l'autre.
+
+    ```{admonition} Aide
+    :class: hint, dropdown
+
+    ![](img/meld_file_comp.png)
+    ```
+
+    Enfin, cliquez sur *Compare*.
+
 1. Identifiez les positions et les types des acides aminés qui diffèrent entre les deux séquences.
 
 ```{admonition} Éléments de réponse
@@ -55,4 +64,4 @@ Ouvrez ensuite les deux fichiers FASTA précédents (`P04406.fasta` et `G1QVR0.f
 
 Comparez les fonctionnalités et l'ergonomie du module *Compare* de *Notepad++* par rapport à *Meld*.
 
-Essayez maintenant d'installer le module *ComparePlus* qui est normalement plus ergonomique que *Compare*. Comparez-le à *Meld*.
+Essayez maintenant d'installer le module *ComparePlus* qui est normalement plus pratique que *Compare*. Comparez-le à *Meld*.
