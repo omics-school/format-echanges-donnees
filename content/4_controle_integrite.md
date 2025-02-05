@@ -40,15 +40,18 @@ Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec *Notepad++
 
 Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
 
-```{admonition} Éléments de réponse
+````{admonition} Éléments de réponse
 :class: tip, dropdown
 
-Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent normalement correspondre à celles indiquées sur Zenodo.
+Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent correspondre à celles indiquées sur Zenodo.
 
 Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié, l'empreinte MD5 obtenue est totalement différente de la première.
 
-Il n'y a **aucune relation** entre deux sommes de contrôle même s'il n'y a qu'un seul caractère de différence entre les deux fichiers.
+```{warning}
+Il n'y a **aucune relation** entre deux sommes de contrôle,
+même s'il n'y a qu'un seul caractère de différence entre les deux fichiers.
 ```
+````
 
 
 ## Collision 😱
@@ -83,7 +86,7 @@ Source : les images proviennent du blog [Emaragkos.gr](https://emaragkos.gr/info
 
 ## D'autres algorithmes
 
-Reprenez les deux images précédentes et essayez d'obtenir leur empreinte avec les algorithmes suivants :
+Reprenez les deux images précédentes et essayez d'obtenir leurs empreintes avec les algorithmes suivants :
 
 - SHA1 (Dans le menu à gauche, sélectionnez *SHA1*, puis *SHA1 File*)
 - SHA256 (Dans le menu à gauche, sélectionnez *SHA2*, puis *SHA256 File*)
@@ -93,21 +96,21 @@ Ces empreintes sont-elles identiques ou différentes, pourquoi  ?
 ```{admonition} Éléments de réponse
 :class: tip, dropdown
 
-Empreintes MD5 :
+Empreintes MD5 (identiques) :
 - `souvlaki_coll.jpg` : `59bbfd270bdf5817c5d77e739839a02a`
 - `gyra_coll.jpg` : `59bbfd270bdf5817c5d77e739839a02a`
 
-Empreintes SHA1 :
+Empreintes SHA1 (différentes) :
 - `souvlaki_coll.jpg` : `d611a4f21bee250f0e6836b00301cef2c823e170`
 - `gyra_coll.jpg` : `494ea3c2dc1258d7c9100414a9f588e9eeb14d12`
 
-Empreintes SHA256 :
+Empreintes SHA256 (différentes) :
 - `souvlaki_coll.jpg` : `af9ce845c2b1b6858659f12e39d2fd4a2bc83243d54ef068ae98eb0f48903291`
 - `gyra_coll.jpg` : `6ef8c2aefea15e621c2ac5cd3545dc9b82efa49db3d5efcfa9b43a2cf869d35a`
 
 Les empreintes MD5 sont identiques pour les deux images.
 Ces images ont été modifiées intentionnellement pour créer cette collision
-(deux fichiers différentes conduisant à la même empreinte).
+(deux fichiers différents conduisant à la même empreinte).
 
 À notre connaissance, il n'est pas possible de créer des collisions pour MD5, SHA1 ou SHA256
 sur les mêmes fichiers.
