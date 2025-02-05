@@ -7,7 +7,7 @@
 À toute fin utile, voici une [notice détaillée](install-meld/README) pour installer *Meld* sous Windows.
 ```
 
-Vérifiez que le logiciel *Meld* est installé.
+Vérifiez que le logiciel *Meld* est installé sur votre machine.
 
 Téléchargez les séquences protéiques, au format FASTA, de la déhydrogénase :
 - de l'homme ([P04406](https://www.uniprot.org/uniprot/P04406)) - [fichier FASTA](files/P04406.fasta)

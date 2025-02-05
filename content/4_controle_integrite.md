@@ -2,7 +2,7 @@
 
 ## Préparation
 
-Sur le site [Zenodo](https://zenodo.org/), vous trouverez les données d'une étude sur le paludisme publié en 2016 : *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria 10 years after introduction of artemisinin-combination therapies*, Etoka-Beka *et al.*, TMIH. DOI [10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
+Sur le site [Zenodo](https://zenodo.org/), vous trouverez les données d'une étude sur le paludisme publié en 2016 : *Plasmodium falciparum infection in febrile Congolese children: prevalence of clinical malaria 10 years after introduction of artemisinin-combination therapies*, Etoka-Beka *et al.*, TMIH. [DOI 10.1111/tmi.12786](https://onlinelibrary.wiley.com/doi/10.1111/tmi.12786).
 
 ```{note}
 Zenodo est un site intéressant pour partager certaines données scientifiques.
@@ -74,7 +74,7 @@ Comparez ensuite les deux empreintes. Si elles sont identiques, alors que les de
 Pour les deux images, l'empreinte MD5 est `59bbfd270bdf5817c5d77e739839a02a`.
 ```
 
-La collision MD5 que vous avez observée n'est pas due au hasard. Un algorithme particulier a été utilisé pour créer cette collision.
+La collision MD5 que vous avez observée n'est pas due au hasard. Un algorithme particulier a été utilisé pour créer volontairement cette collision.
 
 L'algorithme MD5 est donc à proscrire en sécurité informatique. Il est néanmoins parfaitement utilisable (et encore très utilisé) dans un contexte scientifique.
 
