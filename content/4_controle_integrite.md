@@ -36,16 +36,22 @@ Comparez l'empreinte MD5 calculée (dans le champ texte *Output*) avec l'emprein
 
 Répétez l'opération avec le fichier `mng2015_children_malaria_data.csv`.
 
+```{admonition} Éléments de réponse
+:class: tip, dropdown
+
+Si les deux fichiers ont été téléchargés correctement,
+les empreintes calculées doivent correspondre à celles indiquées sur Zenodo.
+```
+
 Ouvrez maintenant le fichier `mng2015_children_malaria_data.csv` avec *Notepad++* et remplacez le 1er caractère de la 1ère ligne (`p`) par `P` (majuscule). Enregistrez le fichier modifié.
 
-Calculez la nouvelle somme de contrôle du fichier `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
+Calculez la nouvelle somme de contrôle du fichier modifié `mng2015_children_malaria_data.csv` et comparez-la à la précédente.
 
 ````{admonition} Éléments de réponse
 :class: tip, dropdown
 
-Si les deux fichiers ont été téléchargés correctement, les empreintes calculées doivent correspondre à celles indiquées sur Zenodo.
-
-Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié, l'empreinte MD5 obtenue est totalement différente de la première.
+Une fois le premier caractère du fichier `mng2015_children_malaria_data.csv` modifié,
+l'empreinte MD5 obtenue est totalement différente de la première.
 
 ```{warning}
 Il n'y a **aucune relation** entre deux sommes de contrôle,
