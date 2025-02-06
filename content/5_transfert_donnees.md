@@ -2,6 +2,10 @@
 
 Le dernier aspect abordé dans ce tutoriel concerne le transfert de données, depuis votre machine locale vers un serveur distant (le serveur de l'IFB par exemple) et inversement.
 
+```{warning}
+Pour cette partie, vous aurez besoin de vos identiants IFB (login et mot de passe). Pensez à vérifier que vous êtes bien en leur possession.
+```
+
 
 ## Connexion au serveur IFB
 
